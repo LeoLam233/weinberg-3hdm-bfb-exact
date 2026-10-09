@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "pdf_checks": {
+    "THEOREM": {
+      "pages": 9,
+      "all_pages_have_text": true,
+      "text_bounds_inside_page": true,
+      "characters_per_page": [
+        2620,
+        2558,
+        2066,
+        2955,
+        2749,
+        3149,
+        3999,
+        3450,
+        3392
+      ]
+    },
+    "SPECIALIST_SYNOPSIS": {
+      "pages": 3,
+      "all_pages_have_text": true,
+      "text_bounds_inside_page": true,
+      "characters_per_page": [
+        2730,
+        2881,
+        3236
+      ]
+    }
+  },
+  "visual_inspection": "Poppler-rendered nine theorem pages and three synopsis pages inspected in contact sheets, with detail checks on load-bearing pages. No clipped text or missing glyphs observed.",
+  "all_result_JSON_parsed": true,
+  "all_Python_sources_parse": true,
+  "replay_input_hashes_rechecked": 27
+}

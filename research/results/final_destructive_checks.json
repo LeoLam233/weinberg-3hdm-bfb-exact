@@ -1,0 +1,67 @@
+{
+  "phase_chart_checks": [
+    {
+      "name": "one_phase_at_infinity",
+      "F": "5*t**2*u**2 + 5*t**2*u - 10*t**2 - 7*t*u**2 + 8*t*u - 3*t + 6*u**2 + u - 1",
+      "G": "-3*t**2*u**2/2 - 3*t**2*u + 9*t**2/2 + 6*t*u**2 + 8*t*u + 10*t - 17*u**2/2 - 7*u + 11/2",
+      "gcd": "1",
+      "projective_coordinates": {
+        "T0": 0,
+        "T1": 1,
+        "U0": 1,
+        "U1": 1
+      },
+      "current": "Matrix([[1], [1], [1]])",
+      "value": "1/3",
+      "loop_product": "5/2 + 5*I/2",
+      "real_root_preserved_by_reciprocal_chart": true
+    },
+    {
+      "name": "two_phases_at_infinity",
+      "F": "6*t**2*u - 12*t**2 - 22*t*u**2 + 4*t*u - 2*t + 10*u**2 - 14*u + 2",
+      "G": "34*t**2*u + 10*t**2 - 16*t*u**2 + 4*t*u + 4*t - 12*u**2 + 14*u + 2",
+      "gcd": "2",
+      "projective_coordinates": {
+        "T0": 0,
+        "T1": 1,
+        "U0": 0,
+        "U1": 1
+      },
+      "current": "Matrix([[1], [1], [1]])",
+      "value": "1/3",
+      "loop_product": "6 - 8*I",
+      "real_root_preserved_by_reciprocal_chart": true
+    }
+  ],
+  "D_zero_with_nonreal_loop": {
+    "A": "Matrix([[19/9, 1/9, 13/9], [1/9, 19/9, 13/9], [13/9, 13/9, 25/9]])",
+    "G1": "Matrix([[2/3], [2/3], [-1/3]])",
+    "K": "Matrix([[5/12, -1/12 - I/30, -1/6 + I/60], [-1/12 + I/30, 5/12, -1/6 - I/60], [-1/6 - I/60, -1/6 + I/60, 1/6]])",
+    "a": "0",
+    "p": "0",
+    "D": "0",
+    "beta": "1",
+    "eigenvalues": [
+      "0",
+      "1/2 - 1/(10*sqrt(6))",
+      "1/2 + 1/(10*sqrt(6))"
+    ],
+    "characteristic_polynomial": "x*(600*x**2 - 600*x + 149)/600",
+    "weighted_dual_loop": "-I/250",
+    "charged_stationarity": "LK=I+P; f=1/2",
+    "all_inverse_off_blocks_invertible": true
+  },
+  "purity_checks": {
+    "arbitrary_scalar_identity": true,
+    "arbitrary_complex_inverse_square_block_identity": true,
+    "warning": "purity <= 1 does not enforce rank <= 2 without the separately proved kernel identity",
+    "full_rank_counterexample": "I/3 has purity 1/3",
+    "indefinite_rank_two_counterexample": "diag(-1/4,0,5/4) has purity 13/8"
+  },
+  "universal_sextic": {
+    "arbitrary_two_harmonic_rows": true,
+    "degree_after_exact_base_factor_division": 6,
+    "base_points": "(i,i),(-i,-i)",
+    "remainder": "0"
+  }
+}

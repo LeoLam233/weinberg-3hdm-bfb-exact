@@ -1,0 +1,101 @@
+{
+  "arbitrary_sparse_kernel_identity": {
+    "D": "(b+c-2w)/det(A)",
+    "K_diagonal": [
+      "0",
+      "(c - w)/(b + c - 2*w)",
+      "(b - w)/(b + c - 2*w)"
+    ],
+    "value": "(b*c-w*w)/(2*(b+c-2w))"
+  },
+  "negative_model": {
+    "A": [
+      [
+        "3",
+        "2",
+        "2"
+      ],
+      [
+        "2",
+        "1",
+        "-2"
+      ],
+      [
+        "2",
+        "-2",
+        "1"
+      ]
+    ],
+    "g": [
+      "5/11",
+      "-1/11",
+      "-1/11"
+    ],
+    "p": "1/11",
+    "D": "-2/11",
+    "value": "-1/4",
+    "K_diagonal": [
+      "0",
+      "1/2",
+      "1/2"
+    ]
+  },
+  "zero_model": {
+    "A": [
+      [
+        "7/2",
+        "5/2",
+        "5/2"
+      ],
+      [
+        "5/2",
+        "3/2",
+        "-3/2"
+      ],
+      [
+        "5/2",
+        "-3/2",
+        "3/2"
+      ]
+    ],
+    "g": [
+      "2/5",
+      "-2/25",
+      "-2/25"
+    ],
+    "p": "0",
+    "D": "-4/25",
+    "value": "0",
+    "K_diagonal": [
+      "0",
+      "1/2",
+      "1/2"
+    ]
+  },
+  "global_face_minimum_proof_identity": "f_diagonal+1/4 = r1*(5/2-3*r1/4) + (3/4)*(r2-r3)^2; off-diagonal terms nonnegative",
+  "singular_B_valid_radial_stationary": {
+    "detB": "0",
+    "W": "27",
+    "r": [
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    "nu": "0"
+  },
+  "formal_zero_boundary_branch": {
+    "minimum": "(4*e0*e2 + 4*e0*e3 - 8*e0*e6 + 24*e0 + 2*e2*e3 + 3*e2 + 3*e3 - 2*e6**2 + 6*e6)/(4*(e2 + e3 - 2*e6 + 6))",
+    "minimum_minus_e0": "(2*e2*e3 + 3*e2 + 3*e3 - 2*e6**2 + 6*e6)/(4*(e2 + e3 - 2*e6 + 6))",
+    "r2": "(e3 - e6 + 3)/(e2 + e3 - 2*e6 + 6)",
+    "r3": "(e2 - e6 + 3)/(e2 + e3 - 2*e6 + 6)",
+    "successive_limit_value": "0",
+    "successive_limit_K_diagonal": [
+      "0",
+      "1/2",
+      "1/2"
+    ],
+    "scope": "exact branch; global persistence follows from the strict off-diagonal and inward-radial margins described in the proof"
+  },
+  "real_skew_determinant_identity": "det(A+iB)=det(A)-z^T A z",
+  "real_skew_energy_identity": "f=3/4 tr(A^2)+1/4 sum A_ii^2+1/2 |z|^2-1/2(tr A)^2"
+}

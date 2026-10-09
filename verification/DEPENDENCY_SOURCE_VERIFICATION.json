@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "source_record_sha256": "311903a7ca3d5143121fcc10fca259864b880797c45fa0bd224bb3ad9bb16726",
+  "finished_utc": "2026-10-09T18:11:28.770577+00:00",
+  "archives": [
+    {
+      "name": "mathlib",
+      "rev": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "url": "https://codeload.github.com/leanprover-community/mathlib4/tar.gz/d13f23b723b8a846827a245b89c10fc7d3f11612",
+      "archive_sha256": "a8c019444a1edd6091d8416e492e218a311db340dafbea96c61c6dc358c28f05",
+      "archive_bytes": 23846080,
+      "regular_files_verified": 9291,
+      "uncompressed_bytes_verified": 103351573
+    },
+    {
+      "name": "plausible",
+      "rev": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "url": "https://codeload.github.com/leanprover-community/plausible/tar.gz/118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "archive_sha256": "e5ed8b63ae57811987cc68e89b87fdd9932ed8ec4bda187abd4db5d9321a8f48",
+      "archive_bytes": 42943,
+      "regular_files_verified": 35,
+      "uncompressed_bytes_verified": 163509
+    },
+    {
+      "name": "LeanSearchClient",
+      "rev": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "url": "https://codeload.github.com/leanprover-community/LeanSearchClient/tar.gz/ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "archive_sha256": "55f9b52a8134dd4e14176999cda127af2c1190241048864b546ae7c802ae6e37",
+      "archive_bytes": 13134,
+      "regular_files_verified": 15,
+      "uncompressed_bytes_verified": 54764
+    },
+    {
+      "name": "importGraph",
+      "rev": "e928b72544873815af278d38681b31c0293588e3",
+      "url": "https://codeload.github.com/leanprover-community/import-graph/tar.gz/e928b72544873815af278d38681b31c0293588e3",
+      "archive_sha256": "5daec3b3889d425440a93f4a47de29a41836266359e29472abbc767ed2188eed",
+      "archive_bytes": 149550,
+      "regular_files_verified": 73,
+      "uncompressed_bytes_verified": 561314
+    },
+    {
+      "name": "proofwidgets",
+      "rev": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "url": "https://codeload.github.com/leanprover-community/ProofWidgets4/tar.gz/106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "archive_sha256": "c6cf369f63a997035e36c5f6f76afdba77c2e047988cb6abdec362a1098552de",
+      "archive_bytes": 3895061,
+      "regular_files_verified": 111,
+      "uncompressed_bytes_verified": 9603597
+    },
+    {
+      "name": "aesop",
+      "rev": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "url": "https://codeload.github.com/leanprover-community/aesop/tar.gz/355695d523e41d0554926416cba2a2b3544fbbc9",
+      "archive_sha256": "80792fbdc4f7a12a9783c32ee5eba7387d450bc26ababf5ff6f16c4dc59b633a",
+      "archive_bytes": 208005,
+      "regular_files_verified": 258,
+      "uncompressed_bytes_verified": 834198
+    },
+    {
+      "name": "Qq",
+      "rev": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "url": "https://codeload.github.com/leanprover-community/quote4/tar.gz/6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "archive_sha256": "c61940f3fe63e39db9b25b8ac4ce1bc9a9466801055b9218804556d85e9a6e29",
+      "archive_bytes": 33006,
+      "regular_files_verified": 35,
+      "uncompressed_bytes_verified": 111634
+    },
+    {
+      "name": "batteries",
+      "rev": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "url": "https://codeload.github.com/leanprover-community/batteries/tar.gz/f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "archive_sha256": "1987093d3e0af3c75084f48095a8eb0fac0751b11712c51fb05b31e71d64220b",
+      "archive_bytes": 363638,
+      "regular_files_verified": 289,
+      "uncompressed_bytes_verified": 1429427
+    },
+    {
+      "name": "Cli",
+      "rev": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+      "url": "https://codeload.github.com/leanprover/lean4-cli/tar.gz/e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+      "archive_sha256": "1ccb3440fc468e393b064a446368c4b317b7c57ffe78cee3b2b932333834e007",
+      "archive_bytes": 23864,
+      "regular_files_verified": 12,
+      "uncompressed_bytes_verified": 115346
+    }
+  ],
+  "total_regular_source_files_verified": 10119,
+  "transformation": "Official source archive identities and verified file counts retained; local duplicate-source overlay paths and host coordinates omitted.",
+  "limitation": "Archive/content identity checking is distinct from a fresh full rebuild of external compiled dependencies."
+}

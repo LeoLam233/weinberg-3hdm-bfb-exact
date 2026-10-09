@@ -1,0 +1,87 @@
+{
+  "dual_parameter_jacobian_determinant": "8192",
+  "radial_first_jet_preserving_variation": "Hr=0 and U^T H U=arbitrary symmetric 2x2, exact rational test",
+  "first_jet_rank_examples": [
+    {
+      "g": [
+        "1",
+        "1",
+        "1"
+      ],
+      "rank": 4,
+      "pivot_columns": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "minor": "-16/38025"
+    },
+    {
+      "g": [
+        "2",
+        "-1",
+        "3"
+      ],
+      "rank": 4,
+      "pivot_columns": [
+        0,
+        1,
+        6,
+        7
+      ],
+      "minor": "-8192/249482025"
+    }
+  ],
+  "projective_chart_identities": "exact divisibility and reciprocal-chart identities, all four charts",
+  "neutral_moment_gap": {
+    "normalization": "3 + 6*sqrt(10)/5",
+    "cost_exact": "-13/120 + sqrt(10)/30",
+    "cost_negative": true,
+    "uniform_minimum_coefficient_positive": "2 sqrt(10)/5 - 5/4 > 0",
+    "phase_flux": "(3 + I)**3/125"
+  },
+  "selected_bounded_root_residue_tests": [
+    {
+      "name": "colliding_plus",
+      "normalized_residue_polynomial": "X**2 - 2*X + 1",
+      "selected_limit": "1",
+      "number_of_distinct_real_residue_roots": 1
+    },
+    {
+      "name": "colliding_minus",
+      "normalized_residue_polynomial": "X**2 - 2*X + 1",
+      "selected_limit": "1",
+      "number_of_distinct_real_residue_roots": 1
+    },
+    {
+      "name": "two_limits_minus",
+      "normalized_residue_polynomial": "X**4 + 2*X**3 - 11*X**2 - 12*X + 36",
+      "selected_limit": "-3",
+      "number_of_distinct_real_residue_roots": 2
+    },
+    {
+      "name": "two_limits_plus",
+      "normalized_residue_polynomial": "X**4 + 2*X**3 - 11*X**2 - 12*X + 36",
+      "selected_limit": "2",
+      "number_of_distinct_real_residue_roots": 2
+    },
+    {
+      "name": "bounded_pole_cancellation",
+      "normalized_residue_polynomial": "1 - X",
+      "selected_limit": "1",
+      "number_of_distinct_real_residue_roots": 1
+    },
+    {
+      "name": "common_epsilon_power",
+      "normalized_residue_polynomial": "X**2 - 4*X + 4",
+      "selected_limit": "2",
+      "number_of_distinct_real_residue_roots": 1
+    }
+  ],
+  "nested_limit_order_test": {
+    "latest_first": "1",
+    "reverse_first_limit": "infinity; invalid order"
+  },
+  "coefficient_monomial_uniform_l1_bound": "9/2"
+}

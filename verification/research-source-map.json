@@ -1,0 +1,274 @@
+[
+  {
+    "source": "C001/PS2_WEINBERG_BFB/DERIVATIONS.md",
+    "published": "research/DERIVATIONS.md",
+    "sha256": "e376c37a1c0d44d5f6edcb1db43381441eb0c84ecc5bf33618dc3a66bcd93719",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/SPECIALIST_SYNOPSIS.md",
+    "published": "research/SPECIALIST_SYNOPSIS.md",
+    "sha256": "3a97bce4b4c53e871ad690c24205ac39961c3f071e07aa0b5a0191c9c339a1de",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/SPECIALIST_SYNOPSIS.pdf",
+    "published": "research/SPECIALIST_SYNOPSIS.pdf",
+    "sha256": "665ebd83f5293e267c187127e62a3775c9164e5f7f88027cc398d8ab918cf36a",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/THEOREM.md",
+    "published": "research/THEOREM.md",
+    "sha256": "4f87feffa067e1e82e984998828efcffad68d49c92efe3c536ccf9f0051aec66",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/THEOREM.pdf",
+    "published": "research/THEOREM.pdf",
+    "sha256": "020306f0f3935072508b87aa1a2a8caf81546e50e5159e204cbbbe75eb786f12",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/affine_shift_checks.py",
+    "published": "research/code/affine_shift_checks.py",
+    "sha256": "ade407cd41795e3154aa1f278a09a24f7717d5992e25ed220b0d170617257a7a",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/analyze_envelope.py",
+    "published": "research/code/analyze_envelope.py",
+    "sha256": "2b608c614e2e94f93f11807cf509f874b61556a323a47c3ce342ec8765a67a02",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/closure_audit_checks.py",
+    "published": "research/code/closure_audit_checks.py",
+    "sha256": "6fa0e2d9b26e1985cfc6e6c444370f0bcd51f88d9b045c37f05389199f6f5c1e",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/envelope_probe.py",
+    "published": "research/code/envelope_probe.py",
+    "sha256": "ec4731e838ff99d3dca1ea860b79364b984a1e80d56c77a7982bbd95b70600bd",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/exact_checks.py",
+    "published": "research/code/exact_checks.py",
+    "sha256": "da03cc8edc4c4756540335911120176b7f97a309c708ca8c2b611784436ecc01",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/face_and_infinitesimal_checks.py",
+    "published": "research/code/face_and_infinitesimal_checks.py",
+    "sha256": "b4b7341580b4f997ed67f7fe8b07178e4be3b75c99062293adc1c5db8a970681",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/field_and_genericity_checks.py",
+    "published": "research/code/field_and_genericity_checks.py",
+    "sha256": "896c7cf51377427bd3ce0829c93393837127c1edf40acea06aab0e0f713f8675",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/final_destructive_checks.py",
+    "published": "research/code/final_destructive_checks.py",
+    "sha256": "b37da6085b9a264dff01f7106c39cb8555f387bb1eec120165675fbed86d2186",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/generic_spectrum_probe.py",
+    "published": "research/code/generic_spectrum_probe.py",
+    "sha256": "f62b9dd08b5832cb2d53b525a27a276c38af670eb2384942c4d8d851f1302621",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/hexagon_numeric.py",
+    "published": "research/code/hexagon_numeric.py",
+    "sha256": "e2660b494eed6d406a960613406720d57b6c1546604be8dc1e02a5181293a1f5",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/hexagon_spectrum_probe.py",
+    "published": "research/code/hexagon_spectrum_probe.py",
+    "sha256": "b1fe52dd37debaab5b425c551cae240eaa0d7ebb0e20ac8cca0e332e06d9b690",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/moment_probe.py",
+    "published": "research/code/moment_probe.py",
+    "sha256": "eef56361ecb872a02e2ce2c518cf3e0d30c678416e4d5bd600402f5c329f5ced",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/probe_duality.py",
+    "published": "research/code/probe_duality.py",
+    "sha256": "da98db959622c599225f855682bffa071c8f5f2ecd5b0632781ca55aa671afe6",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/probe_weighted_envelopes.py",
+    "published": "research/code/probe_weighted_envelopes.py",
+    "sha256": "4a2c66a9e4c98b1a341c1a743bbc554329c7228a048cc2b45dbd6d05d011d82d",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/replay_checks.py",
+    "published": "research/code/replay_checks.py",
+    "sha256": "8c5c16161419b266c54d1f6a69c87bf75ddc6f966955be258692fdcc4e9a39aa",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/singular_probe.py",
+    "published": "research/code/singular_probe.py",
+    "sha256": "e24301dae4cfe3135120d067b9a4e27c12e220f814dc4bcfdc426230c92c4521",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/subresultant_probe.py",
+    "published": "research/code/subresultant_probe.py",
+    "sha256": "9e2c2939aff0ed2fa29376f6dfb2d258b4324a2f626a18d9df3b54c49cb4a53f",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/code/weinberg.py",
+    "published": "research/code/weinberg.py",
+    "sha256": "383249724e12255f88f3dad54f376150ad9cf3d5299c754062c7d5b5003c5a5a",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/affine_shift_checks.json",
+    "published": "research/results/affine_shift_checks.json",
+    "sha256": "356e5b9e167e46637aace6de1d7a2e060a12f2434c5c2964f5a22c7d4df1eb4a",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/closure_audit_checks.json",
+    "published": "research/results/closure_audit_checks.json",
+    "sha256": "fed491c6f97abfce20a5a8a2da80f28dd38947751f1b210afe38a88359228f2a",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/document_checks.json",
+    "published": "research/results/document_checks.json",
+    "sha256": "2984030c004c731c0967c729e132fecca96ac5c127d0e8392f34e8c3e3404ccd",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/dual_weighted_envelope.json",
+    "published": "research/results/dual_weighted_envelope.json",
+    "sha256": "2e6e35049094d235fe4ef2ef6201607deb505fb4b318abbd01284eb032303f8e",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/duality_probe.json",
+    "published": "research/results/duality_probe.json",
+    "sha256": "dfdd6906ec9345b96a76ec1121d9185675fd64c3f3170f121d44bcf459051449",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/envelope_analysis.json",
+    "published": "research/results/envelope_analysis.json",
+    "sha256": "bc2556e10bc759e75c4190c0c8af925b5a849906056807990c58b7d737941a2e",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/envelope_input.json",
+    "published": "research/results/envelope_input.json",
+    "sha256": "eade52f7e41b019ebceec675989156a1d37838e5f26e2bdfa24f94c73160c039",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/exact_checks.json",
+    "published": "research/results/exact_checks.json",
+    "sha256": "c3c83d47baac94b1b0c895ca348e2e231785958ebff0a59fad7334a9024456a5",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/face_and_infinitesimal_checks.json",
+    "published": "research/results/face_and_infinitesimal_checks.json",
+    "sha256": "90b419073a48ccb01562e05b0a84e5eb824a353b8320020bac291967abc7ce7a",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/field_and_genericity_checks.json",
+    "published": "research/results/field_and_genericity_checks.json",
+    "sha256": "6d6f711448ca886a882526e00c5da725c9eae93a075f2da1c958fed3b04b45b9",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/final_destructive_checks.json",
+    "published": "research/results/final_destructive_checks.json",
+    "sha256": "30a96bfc945a48cf1be15a3b398f796de624b2d11b4d3fb4da2698bafb33abcc",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/generic_spectrum_probe.json",
+    "published": "research/results/generic_spectrum_probe.json",
+    "sha256": "c42e1de98228e0a095f03510dba0fecab944e07b4b0ec1da9620dcc356b5d0f0",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/hexagon_numeric.json",
+    "published": "research/results/hexagon_numeric.json",
+    "sha256": "f6a08e67938d26b4fb33bf540b94ce47694ce35599156f91b8397bda1627fbee",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/hexagon_spectrum_probe.json",
+    "published": "research/results/hexagon_spectrum_probe.json",
+    "sha256": "275662390eb7315b01d73375479d6f738178313bc4016285c0fee90644652635",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/neutral_gap_continuation.json",
+    "published": "research/results/neutral_gap_continuation.json",
+    "sha256": "989b66242495ce4f6333262fd5cec0db569e487f5846fa67a259ed1b6e388103",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/neutral_moment_probe.json",
+    "published": "research/results/neutral_moment_probe.json",
+    "sha256": "c3ebb0816913b32ac778709b246d89c63523b29a891118d57460691e50074cb2",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/primal_weighted_envelope.json",
+    "published": "research/results/primal_weighted_envelope.json",
+    "sha256": "af0fba80867d69b72e72974442f39c74f9281e7e07610f06d22d1e97b1a9c8e5",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/replay_verification.json",
+    "published": "research/results/replay_verification.json",
+    "sha256": "109d535b88bd90b0a1992e0f509b406774ee3cdd01760ba0daeaa2e3e883727c",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/singular_probe.json",
+    "published": "research/results/singular_probe.json",
+    "sha256": "3bff315424f7dfeabe34d18e55d5dc42a5b2e0ef22fabcc6d1f4471f270c8fb4",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/results/subresultant_probe.json",
+    "published": "research/results/subresultant_probe.json",
+    "sha256": "053645065d5d21cf8e8cca63ad17c6dee97d1379e18ce8a1768a46e3caafc88d",
+    "transformation": "none"
+  },
+  {
+    "source": "C001/PS2_WEINBERG_BFB/SOURCES.md",
+    "source_sha256": "1e714c7903951efa37c08f9451ed486d925abd41b2ee268483bf0cc8a0e88148",
+    "published": "research/SOURCES.md",
+    "published_sha256": "c6aa4c13acb9a9a8244b9236fadd744b81d4c36320dbc8ce3588e7d75c0f30ef",
+    "transformation": "Removed the prospective-reviewer-background section; scientific source and scope record retained."
+  },
+  {
+    "source": "reports/replay/hardened_replay.py",
+    "source_sha256": "246c6f9f5214031a5cc3686657212decbaaefd42fc4d655251212866c62f5eed",
+    "published": "scripts/hardened_replay.py",
+    "published_sha256": "7ff18c3aad131a248a36ba1bfcc3b532ff99548d15085f9c66378dbe6769179a",
+    "transformation": "Replaced the development-only absolute default source path with the repository-relative research directory; acceptance logic unchanged."
+  }
+]

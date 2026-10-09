@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "formal_revision": "F002",
+  "source_freeze_sha256": "7fc34595fdb0a21778cf000dfac1484a4d6dd9c0e9dc3aff7ad0fce5f1af73c5",
+  "entry": "W3.FiniteInputMain",
+  "local_module_count": 190,
+  "finished_utc": "2026-10-09T18:10:17.897018+00:00",
+  "source_record_sha256": {
+    "validation": "d35ef55293289d0fc9caccadf1dc975f13ffeb1fad04f5497da28dce8812f45e",
+    "build": "d7eb6bd7c44c954421fb3079e3be507d010ac1d640f7312a1a38aa1ca885f0cc",
+    "kernel_audit": "caa97f66a18859b39171785145a2807e19de8d667c77edce8d0b4eedcbff392e",
+    "kernel_recovery": "63348561f44e93f969463b056a077fce58d9b5b73c6808c4013887b10e0ac8c4"
+  },
+  "fresh_local_build": {
+    "complete": true,
+    "successful_local_compilations": 190,
+    "qualification": "Isolated fresh 190-module sequence resumed after verified infrastructure interruption at88 completed modules; full explicit --fresh checker separately restarted in full after a second interruption. No incremental W3 object reused."
+  },
+  "kernel_audit": {
+    "status": "PASS",
+    "fresh_checker_status": "PASS",
+    "checker_source_sha256": "2d18ec111d73c536b0bdee2533556bb9548c349f386797d3d3837b1f84d55dae",
+    "steps": [
+      {
+        "stage": "environment",
+        "exit_code": 0,
+        "receipt_sha256": "5ebc5fbb6ba15c17bbbd8df2bdbb455539f56f300e3f7dad57ac104d58e960e7",
+        "elapsed_seconds": 66.88884923100704,
+        "maxrss_kib": 3758844
+      },
+      {
+        "stage": "print_axioms",
+        "exit_code": 0,
+        "receipt_sha256": "a64dd455e9d482a6fe7be24162ed2bf06fd6bf6ab784ddfbcb1c90dd92a12893",
+        "elapsed_seconds": 65.31517914398864,
+        "maxrss_kib": 3655284
+      },
+      {
+        "stage": "trust_zero_probe",
+        "exit_code": 0,
+        "receipt_sha256": "52ba08f9790141d05a14bcc1c52cd5ead7138b288e2e5ef80a16246d231ba9e9",
+        "elapsed_seconds": 0.2850899559998652,
+        "maxrss_kib": 465924
+      },
+      {
+        "stage": "trust_zero_aggregate",
+        "exit_code": 0,
+        "receipt_sha256": "782aad658f421e49814e96b35adff062a2048fdfa3902e5488794b020b143272",
+        "elapsed_seconds": 2.0053375260031316,
+        "maxrss_kib": 3216236
+      },
+      {
+        "stage": "leanchecker_fresh_retry_02",
+        "exit_code": 0,
+        "receipt_sha256": "b45a7dfb01507403f3b8b095678af876704f947aa1f5a5304d0884a396c96653",
+        "elapsed_seconds": 464.24569207600143,
+        "maxrss_kib": 4022312
+      }
+    ]
+  },
+  "axioms": {
+    "status": "PASS",
+    "declarations": 4545,
+    "theorems": 3088,
+    "allowed_standard_axioms": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "violations": []
+  },
+  "imported_modules": 5324,
+  "imported_artifacts_rehashed": 23767,
+  "imported_bytes_rehashed": 3709409101,
+  "maximum_lean_rss_kib": 4022312,
+  "limitations": [
+    "Uses the same Lean kernel, not an external independent verifier.",
+    "Pinned dependency artifacts are fingerprinted, not freshly rebuilt from source.",
+    "Trust-zero import alone is not evidence of explicit imported proof-body replay.",
+    "Pinned LeanChecker skips unsafe/partial runtime declarations; local W3 sources and declarations are separately gated."
+  ],
+  "transformation": "Selected factual fields and exact source-record hashes; development-only absolute paths, host resource dumps and private execution coordinates are omitted. This selected summary is not represented as the byte-identical original machine receipt."
+}

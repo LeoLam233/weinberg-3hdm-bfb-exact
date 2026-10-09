@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "scope": "All eight finite scientific suites in the public copy with the path-adapted fail-closed wrapper. This is not universal proof verification.",
+  "utc": "2026-10-09T17:34:05.615498+00:00",
+  "checks": [
+    {
+      "suite": "exact_checks",
+      "exit": 0,
+      "fresh_output": true,
+      "sha256": "c3c83d47baac94b1b0c895ca348e2e231785958ebff0a59fad7334a9024456a5",
+      "status": "PASS"
+    },
+    {
+      "suite": "closure_audit_checks",
+      "exit": 0,
+      "fresh_output": true,
+      "sha256": "fed491c6f97abfce20a5a8a2da80f28dd38947751f1b210afe38a88359228f2a",
+      "status": "PASS"
+    },
+    {
+      "suite": "face_and_infinitesimal_checks",
+      "exit": 0,
+      "fresh_output": true,
+      "sha256": "90b419073a48ccb01562e05b0a84e5eb824a353b8320020bac291967abc7ce7a",
+      "status": "PASS"
+    },
+    {
+      "suite": "hexagon_spectrum_probe",
+      "exit": 0,
+      "fresh_output": true,
+      "sha256": "275662390eb7315b01d73375479d6f738178313bc4016285c0fee90644652635",
+      "status": "PASS"
+    },
+    {
+      "suite": "final_destructive_checks",
+      "exit": 0,
+      "fresh_output": true,
+      "sha256": "30a96bfc945a48cf1be15a3b398f796de624b2d11b4d3fb4da2698bafb33abcc",
+      "status": "PASS"
+    },
+    {
+      "suite": "field_and_genericity_checks",
+      "exit": 0,
+      "fresh_output": true,
+      "sha256": "6d6f711448ca886a882526e00c5da725c9eae93a075f2da1c958fed3b04b45b9",
+      "status": "PASS"
+    },
+    {
+      "suite": "hexagon_numeric",
+      "exit": 0,
+      "fresh_output": true,
+      "sha256": "f6a08e67938d26b4fb33bf540b94ce47694ce35599156f91b8397bda1627fbee",
+      "status": "PASS"
+    },
+    {
+      "suite": "affine_shift_checks",
+      "exit": 0,
+      "fresh_output": true,
+      "sha256": "356e5b9e167e46637aace6de1d7a2e060a12f2434c5c2964f5a22c7d4df1eb4a",
+      "status": "PASS"
+    }
+  ],
+  "original_receipt_sha256": "917aa4c82a70aaea2d49424ea0c8dec57b20e1040a70c1dd3bcbced4f0bcc64d"
+}

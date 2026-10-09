@@ -1,0 +1,25 @@
+{
+  "status": "LOCAL_VALIDATION_AND_REVIEW_PASSED",
+  "formal_revision": "F002",
+  "scientific_candidate": "C001",
+  "recorded_utc": "2026-10-09T18:51:48.904286+00:00",
+  "source_freeze_sha256": "7fc34595fdb0a21778cf000dfac1484a4d6dd9c0e9dc3aff7ad0fce5f1af73c5",
+  "local_lean_modules": 190,
+  "kernel_declarations": 4545,
+  "kernel_theorems": 3088,
+  "fresh_local_build": "PASS",
+  "strict_fresh_kernel_replay": "PASS",
+  "repaired_round_count": 3,
+  "independent_ai_reports_per_round": 4,
+  "confirmed_load_bearing_errors": [],
+  "open_potentially_load_bearing": [],
+  "evidence_files": {
+    "sources": "F002_SOURCE_FILES.json",
+    "validation": "F002_VALIDATION.json",
+    "dependency_provenance": "DEPENDENCY_SOURCE_VERIFICATION.json",
+    "repaired_reviews": "REPAIRED_AUDIT_ROUNDS.json",
+    "finite_scientific_replay": "PUBLIC_SCIENTIFIC_REPLAY.json"
+  },
+  "ci_scope": "This record describes completed local validation and AI review. A clean GitHub-hosted run is recorded independently by GitHub Actions; no remote success is inferred here.",
+  "mandatory_scope": "Semantic exact-operation model with finite input-derived requests; no verified rational/algebraic backend, extracted runnable exact solver, backend-independent portable root-code serialization, human peer review or absolute priority certification. Broader all-G auxiliary four-chart/gcd API is not fully formalized."
+}

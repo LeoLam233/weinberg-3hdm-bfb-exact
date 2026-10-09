@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+lean/.lake/
+lean/.cache/
+lean/runtime/
+lean/coordination/
+lean/fresh/
+lean/logs/
+lean/recovery/*.tar.gz
+lean/recovery/*.download
+lean/recovery/runtime_archive
+import-plan.json
+ci-receipts/

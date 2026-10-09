@@ -1,0 +1,26 @@
+{
+  "phase_product": "-1/27",
+  "real_charged_witness_value": "-1/24",
+  "neutral_squared_amplitude_matrix_eigenvalues": {
+    "1": 1,
+    "1/4": 2
+  },
+  "global_minimum_witness_value": "-7/60",
+  "global_minimum_K_eigenvalues": {
+    "3/5": 1,
+    "2/5": 1,
+    "0": 1
+  },
+  "outer_moment_value": "-1/8",
+  "exact_relaxation_gap": "1/120",
+  "singular_dual_denominator": {
+    "a": "0",
+    "b": "1",
+    "p": "0",
+    "D": "0",
+    "lambda": "1",
+    "mu": "1",
+    "all_diagonal_K_positive": true
+  },
+  "one_doublet_characteristic_identity": "exact symbolic polynomial identity"
+}

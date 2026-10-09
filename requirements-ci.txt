@@ -1,0 +1,2 @@
+# Only used for extracting the SHA-256-verified official Lean runtime archive.
+zstandard==0.23.0

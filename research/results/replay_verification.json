@@ -1,0 +1,108 @@
+{
+  "scope": "Six exact symbolic suites and two floating suites; original field-minimum records are captured inputs, not independently re-certified global optima.",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0"
+  },
+  "thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "input_sha256": {
+    "code/affine_shift_checks.py": "ade407cd41795e3154aa1f278a09a24f7717d5992e25ed220b0d170617257a7a",
+    "code/analyze_envelope.py": "2b608c614e2e94f93f11807cf509f874b61556a323a47c3ce342ec8765a67a02",
+    "code/closure_audit_checks.py": "6fa0e2d9b26e1985cfc6e6c444370f0bcd51f88d9b045c37f05389199f6f5c1e",
+    "code/envelope_probe.py": "ec4731e838ff99d3dca1ea860b79364b984a1e80d56c77a7982bbd95b70600bd",
+    "code/exact_checks.py": "da03cc8edc4c4756540335911120176b7f97a309c708ca8c2b611784436ecc01",
+    "code/face_and_infinitesimal_checks.py": "b4b7341580b4f997ed67f7fe8b07178e4be3b75c99062293adc1c5db8a970681",
+    "code/field_and_genericity_checks.py": "896c7cf51377427bd3ce0829c93393837127c1edf40acea06aab0e0f713f8675",
+    "code/final_destructive_checks.py": "b37da6085b9a264dff01f7106c39cb8555f387bb1eec120165675fbed86d2186",
+    "code/generic_spectrum_probe.py": "f62b9dd08b5832cb2d53b525a27a276c38af670eb2384942c4d8d851f1302621",
+    "code/hexagon_numeric.py": "e2660b494eed6d406a960613406720d57b6c1546604be8dc1e02a5181293a1f5",
+    "code/hexagon_spectrum_probe.py": "b1fe52dd37debaab5b425c551cae240eaa0d7ebb0e20ac8cca0e332e06d9b690",
+    "code/moment_probe.py": "eef56361ecb872a02e2ce2c518cf3e0d30c678416e4d5bd600402f5c329f5ced",
+    "code/probe_duality.py": "da98db959622c599225f855682bffa071c8f5f2ecd5b0632781ca55aa671afe6",
+    "code/probe_weighted_envelopes.py": "4a2c66a9e4c98b1a341c1a743bbc554329c7228a048cc2b45dbd6d05d011d82d",
+    "code/replay_checks.py": "8c5c16161419b266c54d1f6a69c87bf75ddc6f966955be258692fdcc4e9a39aa",
+    "code/singular_probe.py": "e24301dae4cfe3135120d067b9a4e27c12e220f814dc4bcfdc426230c92c4521",
+    "code/subresultant_probe.py": "9e2c2939aff0ed2fa29376f6dfb2d258b4324a2f626a18d9df3b54c49cb4a53f",
+    "code/weinberg.py": "383249724e12255f88f3dad54f376150ad9cf3d5299c754062c7d5b5003c5a5a",
+    "results/affine_shift_checks.json": "356e5b9e167e46637aace6de1d7a2e060a12f2434c5c2964f5a22c7d4df1eb4a",
+    "results/closure_audit_checks.json": "fed491c6f97abfce20a5a8a2da80f28dd38947751f1b210afe38a88359228f2a",
+    "results/duality_probe.json": "dfdd6906ec9345b96a76ec1121d9185675fd64c3f3170f121d44bcf459051449",
+    "results/exact_checks.json": "c3c83d47baac94b1b0c895ca348e2e231785958ebff0a59fad7334a9024456a5",
+    "results/face_and_infinitesimal_checks.json": "90b419073a48ccb01562e05b0a84e5eb824a353b8320020bac291967abc7ce7a",
+    "results/field_and_genericity_checks.json": "6d6f711448ca886a882526e00c5da725c9eae93a075f2da1c958fed3b04b45b9",
+    "results/final_destructive_checks.json": "30a96bfc945a48cf1be15a3b398f796de624b2d11b4d3fb4da2698bafb33abcc",
+    "results/hexagon_numeric.json": "f6a08e67938d26b4fb33bf540b94ce47694ce35599156f91b8397bda1627fbee",
+    "results/hexagon_spectrum_probe.json": "275662390eb7315b01d73375479d6f738178313bc4016285c0fee90644652635"
+  },
+  "checks": [
+    {
+      "script": "exact_checks.py",
+      "status": "PASS",
+      "comparison": "JSON exact equality",
+      "elapsed_seconds": 1.727,
+      "replayed_output_sha256": "c3c83d47baac94b1b0c895ca348e2e231785958ebff0a59fad7334a9024456a5"
+    },
+    {
+      "script": "closure_audit_checks.py",
+      "status": "PASS",
+      "comparison": "JSON exact equality",
+      "elapsed_seconds": 2.756,
+      "replayed_output_sha256": "fed491c6f97abfce20a5a8a2da80f28dd38947751f1b210afe38a88359228f2a"
+    },
+    {
+      "script": "face_and_infinitesimal_checks.py",
+      "status": "PASS",
+      "comparison": "JSON exact equality",
+      "elapsed_seconds": 2.453,
+      "replayed_output_sha256": "90b419073a48ccb01562e05b0a84e5eb824a353b8320020bac291967abc7ce7a"
+    },
+    {
+      "script": "hexagon_spectrum_probe.py",
+      "status": "PASS",
+      "comparison": "JSON exact equality",
+      "elapsed_seconds": 1.604,
+      "replayed_output_sha256": "275662390eb7315b01d73375479d6f738178313bc4016285c0fee90644652635"
+    },
+    {
+      "script": "final_destructive_checks.py",
+      "status": "PASS",
+      "comparison": "JSON exact equality",
+      "elapsed_seconds": 10.491,
+      "replayed_output_sha256": "30a96bfc945a48cf1be15a3b398f796de624b2d11b4d3fb4da2698bafb33abcc"
+    },
+    {
+      "script": "field_and_genericity_checks.py",
+      "status": "PASS",
+      "comparison": "JSON exact equality",
+      "elapsed_seconds": 3.584,
+      "replayed_output_sha256": "6d6f711448ca886a882526e00c5da725c9eae93a075f2da1c958fed3b04b45b9"
+    },
+    {
+      "script": "hexagon_numeric.py",
+      "status": "PASS",
+      "comparison": "Recursive numeric tolerance and exact nonnumeric comparison",
+      "elapsed_seconds": 1.5,
+      "replayed_output_sha256": "f6a08e67938d26b4fb33bf540b94ce47694ce35599156f91b8397bda1627fbee"
+    },
+    {
+      "script": "affine_shift_checks.py",
+      "status": "PASS",
+      "comparison": "Recursive numeric tolerance and exact nonnumeric comparison",
+      "elapsed_seconds": 1.838,
+      "replayed_output_sha256": "356e5b9e167e46637aace6de1d7a2e060a12f2434c5c2964f5a22c7d4df1eb4a"
+    }
+  ],
+  "limitations": [
+    "No full exact ordered-field stability solver was executed.",
+    "No proof assistant or external reviewer was used.",
+    "Floating comparison tolerance is rel=1e-9, abs=1e-10; it is not an error bound on a global minimum.",
+    "The abandoned unsaved 60-case moment batch is outside this replay scope."
+  ],
+  "status": "REPLAY-TESTED at the stated scope"
+}

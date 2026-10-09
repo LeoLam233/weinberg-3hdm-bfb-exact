@@ -1,0 +1,33 @@
+
+import Lean
+open Lean Elab Command
+run_cmd do
+  let env := (← getEnv).setExporting false
+  let names := env.constants.fold (fun acc name _ =>
+    match env.getModuleIdxFor? name with
+    | some i =>
+      let m := env.header.moduleNames[i.toNat]!.toString
+      if m == "W3" || m.startsWith "W3." then acc.push name else acc
+    | none => acc) (#[] : Array Name)
+  let mut rows : Array Json := #[]
+  for name in names.qsort Name.lt do
+    let some info := env.checked.get.find? name | throwError "missing checked constant {name}"
+    let axs ← collectAxioms name
+    let td := info.type.getUsedConstants.map toString
+    let vd := match info.value? (allowOpaque := true) with
+      | some e => e.getUsedConstants.map toString
+      | none => #[]
+    let kind := if info.isTheorem then "theorem" else if info.isAxiom then "axiom" else if info.isDefinition then "definition" else "other"
+    let mod := match env.getModuleIdxFor? name with
+      | some i => env.header.moduleNames[i.toNat]!.toString
+      | none => ""
+    rows := rows.push <| Json.mkObj [
+      ("name", toJson name.toString), ("module", toJson mod),
+      ("kind", toJson kind), ("unsafe", toJson info.isUnsafe),
+      ("type_dependencies", toJson td), ("value_dependencies", toJson vd),
+      ("axioms", toJson (axs.map toString))]
+  let result := Json.mkObj [
+    ("declarations", Json.arr rows),
+    ("imported_modules", toJson (env.header.moduleNames.map toString)),
+    ("environment_trust_level", toJson env.header.trustLevel.toNat)]
+  liftIO <| IO.println ("W3_AUDIT_JSON " ++ result.compress)

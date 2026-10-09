@@ -1,0 +1,1012 @@
+{
+  "formal_revision": "F002",
+  "source_freeze_sha256": "7fc34595fdb0a21778cf000dfac1484a4d6dd9c0e9dc3aff7ad0fce5f1af73c5",
+  "frozen_utc": "2026-10-09T17:20:49.172019+00:00",
+  "entry": "W3.FiniteInputMain",
+  "local_module_count": 190,
+  "files": [
+    {
+      "path": "lean/W3/ActualGenericity.lean",
+      "bytes": 3674,
+      "sha256": "d4e6be1d7314f2ce0525f0d8b137e00a91185429e91a6e3d46a86b62bc618365"
+    },
+    {
+      "path": "lean/W3/ActualMinimum.lean",
+      "bytes": 6465,
+      "sha256": "9be0aea6e6d91920b9ba894ca8e7fca2cab1714909c121e39916f2db007f739f"
+    },
+    {
+      "path": "lean/W3/ActualStability.lean",
+      "bytes": 4845,
+      "sha256": "efe8622985d9530ec4d4dc77ef4bb2153a53a02af7b9037b383503ba39add79f"
+    },
+    {
+      "path": "lean/W3/ActualWitness.lean",
+      "bytes": 7607,
+      "sha256": "43afef2ce7ee83e1994c3e3edc140a3d0119b272d3612040cbb04dbdf0330c18"
+    },
+    {
+      "path": "lean/W3/AlgebraicFieldCriterion.lean",
+      "bytes": 4439,
+      "sha256": "dc10d0f4a82488d9cac69a151652ed517dbcf11b521801b39e5a180b118be82c"
+    },
+    {
+      "path": "lean/W3/Elimination.lean",
+      "bytes": 3920,
+      "sha256": "b425c7199bf4707120af8d01921b716b8aa187f2e35d2b876a85e9dd552237e6"
+    },
+    {
+      "path": "lean/W3/EliminationCertificate.lean",
+      "bytes": 7828,
+      "sha256": "4d837940688e189dabc6498e58ff07e84a242bfe767a4a813456100c4d2cfc7e"
+    },
+    {
+      "path": "lean/W3/EliminationCheck.lean",
+      "bytes": 1250,
+      "sha256": "c60403bc7057fa921623fd83729792e32e84c91e96a7550ef7a6bb4efdb49695"
+    },
+    {
+      "path": "lean/W3/EliminationDual.lean",
+      "bytes": 7161,
+      "sha256": "c51919baf33078d0baffe0c2ba09a2113b1f333c91916ce9ee9ca82ae96d25c8"
+    },
+    {
+      "path": "lean/W3/EliminationElementary.lean",
+      "bytes": 9760,
+      "sha256": "3f5e58aec935dadff6e90dd9ff079da2d686111b5754980f98bea38521150f8b"
+    },
+    {
+      "path": "lean/W3/EliminationGeneric.lean",
+      "bytes": 7515,
+      "sha256": "53af5c1c82e0f36b4dafcb601caf833bd57806cb05dc01a3343ae91ac2350aaa"
+    },
+    {
+      "path": "lean/W3/EliminationOperator.lean",
+      "bytes": 4361,
+      "sha256": "14dab6ed2d03db7f3778153e7a17da493cc3e24fc9a15dded7be24c0b67a39a9"
+    },
+    {
+      "path": "lean/W3/EliminationPhase.lean",
+      "bytes": 4923,
+      "sha256": "93b4e98f5a9f11fd7fef705e9561984d1616f5010a3d20f8b037da098e1e2a03"
+    },
+    {
+      "path": "lean/W3/EliminationPolynomial.lean",
+      "bytes": 8475,
+      "sha256": "139f90ae7b4220871508d5fb7d525a854bf33837da3283c499e4aaff02c980d0"
+    },
+    {
+      "path": "lean/W3/EliminationPrimal.lean",
+      "bytes": 2891,
+      "sha256": "9e9df89717a8c4d04ad0b0d7a347503f9bb899539e9614b5df4fb3167203470f"
+    },
+    {
+      "path": "lean/W3/EliminationProjective.lean",
+      "bytes": 5636,
+      "sha256": "93d63d796aa303717dde9a98e675e1aa16ec49618b93cb9291e1d82a77149fa7"
+    },
+    {
+      "path": "lean/W3/EliminationResultant.lean",
+      "bytes": 1430,
+      "sha256": "092cbec925ec60c44ec417856dde7999f25fc7ffc3372f042775ac6ad19b5ae5"
+    },
+    {
+      "path": "lean/W3/EliminationScaling.lean",
+      "bytes": 4615,
+      "sha256": "23c9e8b06ef9d93b2a3065c08ad9769d642bd7c30a5c3bb853ac918481f183ff"
+    },
+    {
+      "path": "lean/W3/EliminationStationary.lean",
+      "bytes": 10034,
+      "sha256": "253ab92c3b5c74fa3c9aad09d6752c76bdfb131ce696d6315b0e2d78639ed6c5"
+    },
+    {
+      "path": "lean/W3/EliminationWeighted.lean",
+      "bytes": 5899,
+      "sha256": "041397d4fb2f040f27fbd195866d90c5650f151bf828feba06a1150ebbb725c0"
+    },
+    {
+      "path": "lean/W3/EliminationWitness.lean",
+      "bytes": 7746,
+      "sha256": "d1ca0d237a5a6799fa2e93150ebdb533d8e64fcf3f9245662528fd8eac480b5c"
+    },
+    {
+      "path": "lean/W3/EnvironmentProbe.lean",
+      "bytes": 195,
+      "sha256": "a539f8c8efc960f8f7665740e10fe733206564de79daab9e47cb0887d3a68702"
+    },
+    {
+      "path": "lean/W3/FiniteInputActualProgram.lean",
+      "bytes": 8429,
+      "sha256": "0ad0c30053464dfe559a44269744606149a1679f0f908c02499898ef7ec18870"
+    },
+    {
+      "path": "lean/W3/FiniteInputAnnihilator.lean",
+      "bytes": 7749,
+      "sha256": "c0dbfe86c4a5a7101a038de003d0840f574d1d2ae5f8545a96937f8cac1c8ae7"
+    },
+    {
+      "path": "lean/W3/FiniteInputAnnihilatorNormalization.lean",
+      "bytes": 6005,
+      "sha256": "535a1ed50109743f040ffea9fe71e1f61580ff1cdd0a2393f33264ebdafabd03"
+    },
+    {
+      "path": "lean/W3/FiniteInputAnnihilatorPresentation.lean",
+      "bytes": 6870,
+      "sha256": "1e86918c6cb0deaf920d0d64ad6400e0a656f3d27e2b09f49be30267c8e77dfe"
+    },
+    {
+      "path": "lean/W3/FiniteInputAnnihilatorRing.lean",
+      "bytes": 4160,
+      "sha256": "5fae3315e0dc0a43615baa7e706a95e757528fcfa10c7418e7023622d30a26fc"
+    },
+    {
+      "path": "lean/W3/FiniteInputCandidatesArithmetic.lean",
+      "bytes": 9258,
+      "sha256": "d3675615036ba7c2bc5ce12860bd7123316b4b9c6c2ef7b7c37cdbce9b248280"
+    },
+    {
+      "path": "lean/W3/FiniteInputCandidatesCheck.lean",
+      "bytes": 792,
+      "sha256": "d1c8d98467ef904333134f5b9640b24952ba9a3ef3fe9ee26f8648f026a092b8"
+    },
+    {
+      "path": "lean/W3/FiniteInputCandidatesLists.lean",
+      "bytes": 10410,
+      "sha256": "3aa95fd41a90e4d317108e72a75c46c58850d27cf580b732b5713f260004f4d0"
+    },
+    {
+      "path": "lean/W3/FiniteInputCandidatesMinimum.lean",
+      "bytes": 6311,
+      "sha256": "b72e37e2d706d97ad07ac069aaf866f171d417c4e0c47a22b1d8c0e0451681cd"
+    },
+    {
+      "path": "lean/W3/FiniteInputCandidatesPolynomials.lean",
+      "bytes": 5530,
+      "sha256": "1d0571008a961d114fdcc561bf9802f914cc64a03265067a1d5d581d4266ac64"
+    },
+    {
+      "path": "lean/W3/FiniteInputCandidatesReification.lean",
+      "bytes": 2444,
+      "sha256": "63a7379301ae73e83604ce029a68bd66b44248fef1f0a5c773279d95b3e15b8a"
+    },
+    {
+      "path": "lean/W3/FiniteInputCoefficientArithmetic.lean",
+      "bytes": 2711,
+      "sha256": "bac50a2406d885cc0b0f0914a99d91aa13e73d63e870528b0021c1c7c67810cd"
+    },
+    {
+      "path": "lean/W3/FiniteInputMain.lean",
+      "bytes": 6858,
+      "sha256": "580be5e3f8a5f03be2ee930c289a3c55be187a230156c2f189f185fa3f981cb2"
+    },
+    {
+      "path": "lean/W3/FiniteInputMatrixResidues.lean",
+      "bytes": 6842,
+      "sha256": "a388b91e7d485d8a0b1eebbf8077ff8cbdd58b5ebe148b1bebdb0ad9d80d2ec3"
+    },
+    {
+      "path": "lean/W3/FiniteInputOperator.lean",
+      "bytes": 8751,
+      "sha256": "2fc2fd3d41e9ccfdf66560e2ee9c16a3a35ab33c270cf8897383c99b6872e8b7"
+    },
+    {
+      "path": "lean/W3/FiniteInputParameters.lean",
+      "bytes": 5569,
+      "sha256": "4a595b9c5d1b090035e6cbc0923b7bd81d16700aa790d087ba29e585d359ad63"
+    },
+    {
+      "path": "lean/W3/FiniteInputPivotArithmetic.lean",
+      "bytes": 5360,
+      "sha256": "c7be4a099ec50eee8ad6681c4f3c99f27d2feb95666d24353e82340b9532ed2c"
+    },
+    {
+      "path": "lean/W3/FiniteInputPivotReconstruction.lean",
+      "bytes": 6259,
+      "sha256": "b20b78dc0f3f4c2a2cc5e920258e573fac11804d89c480216a89db7ddf977e56"
+    },
+    {
+      "path": "lean/W3/FiniteInputPivotRootSelection.lean",
+      "bytes": 4725,
+      "sha256": "71c6a091d1a06da9a707ac6aa1a6854fda5cd0f16cca7b5093d67c4f13beac6e"
+    },
+    {
+      "path": "lean/W3/FiniteInputPivotTrace.lean",
+      "bytes": 5125,
+      "sha256": "54ecdf58134b66c4442d06eae214fd77c7c3f1101b247f9a1d2ada08cfcf4a0b"
+    },
+    {
+      "path": "lean/W3/FiniteInputRealization.lean",
+      "bytes": 7372,
+      "sha256": "ee1dcc2232b72866b35f2743c0326990fea19362ab52bd0c835a0b070684da5f"
+    },
+    {
+      "path": "lean/W3/FiniteInputRealizationProjectors.lean",
+      "bytes": 7636,
+      "sha256": "79ddad4d85430fd3cf916ee6302cdc7eeeb853398dac2fb25b957ece1d78ee6c"
+    },
+    {
+      "path": "lean/W3/FiniteInputRealizationVectors.lean",
+      "bytes": 10753,
+      "sha256": "a03095c7818de3aacabc832b43dac2439701f091547f477eca1198fa77edd090"
+    },
+    {
+      "path": "lean/W3/FiniteInputResidueClearing.lean",
+      "bytes": 5878,
+      "sha256": "182659f1a178bc679b055cd353b5cc630cfcf9fff3d1e7a564037ef994a0d6b2"
+    },
+    {
+      "path": "lean/W3/FiniteInputResidueDenominators.lean",
+      "bytes": 11037,
+      "sha256": "12e1daa31feffaa9426287e5ecbea0fd3ff5567b3a6afaccfb3418adcc284377"
+    },
+    {
+      "path": "lean/W3/FiniteInputResidueExecution.lean",
+      "bytes": 11074,
+      "sha256": "2b0e49bd7ecf9761e51c63747ec3ab821bc54927b62d0a0d870aa9a0e5d52a6b"
+    },
+    {
+      "path": "lean/W3/FiniteInputResidueNormalization.lean",
+      "bytes": 5632,
+      "sha256": "e64c11ae8f5f1f3316ff2d0e24b096ba28ed5930e1dc49004a11391734d04086"
+    },
+    {
+      "path": "lean/W3/FiniteInputResidueProgram.lean",
+      "bytes": 2872,
+      "sha256": "99aebc192e3a1e24536075d91d25a20e085a1df472efbcaccde1187531031164"
+    },
+    {
+      "path": "lean/W3/FiniteInputResidueSelection.lean",
+      "bytes": 5576,
+      "sha256": "9f289a822e06a8769dbae96ab0e7eafafb878d7b7f1bb41796dda92b7f61b07b"
+    },
+    {
+      "path": "lean/W3/FiniteInputRetainedCoverage.lean",
+      "bytes": 10731,
+      "sha256": "d418c282a672e27a6f8f7a5fab6a6950ff6e539dd2104b279435ff3628afe74a"
+    },
+    {
+      "path": "lean/W3/FiniteInputRetainedExecution.lean",
+      "bytes": 6023,
+      "sha256": "2445f6f318afc344e3cac9220b3f8626257ad8a645ce3efc392756be080258b8"
+    },
+    {
+      "path": "lean/W3/FiniteInputSyntax.lean",
+      "bytes": 10595,
+      "sha256": "8765361f7fe4cd4bd8b71108758d1106441bb9bf4ab9245770e8951234fa87a2"
+    },
+    {
+      "path": "lean/W3/FiniteInputTwoSpectrum.lean",
+      "bytes": 13973,
+      "sha256": "909d82cd199710e85930754156c5bc47d7744e2a8c0e95319d5c4da41429c285"
+    },
+    {
+      "path": "lean/W3/FiniteInputTwoSpectrumPhysical.lean",
+      "bytes": 11342,
+      "sha256": "dd8007632b76ab7d0cf649b7fc92ff54a2e6ceda72bec6537fb69aa6290da420"
+    },
+    {
+      "path": "lean/W3/GenericOpen.lean",
+      "bytes": 2461,
+      "sha256": "04f87b1550642002e177cea0f3066f6e993be208005897646f52655171caf415"
+    },
+    {
+      "path": "lean/W3/GramFactor.lean",
+      "bytes": 3245,
+      "sha256": "952f2554525a21c4735665ce537be6693f925b1dd902ec5bb1ae417377d92b74"
+    },
+    {
+      "path": "lean/W3/GramSemantics.lean",
+      "bytes": 2863,
+      "sha256": "bb31271db2c909ffa482ccccc014fe0db876d46b67a6afed50a3778a12ac8b82"
+    },
+    {
+      "path": "lean/W3/InfinitesimalAlgebraicHull.lean",
+      "bytes": 2781,
+      "sha256": "d1bf5bee210bfe48c11570e94bea8ddf23c7f2a608e9441b192d01e272cc203d"
+    },
+    {
+      "path": "lean/W3/InfinitesimalAlgebraicInvariance.lean",
+      "bytes": 3156,
+      "sha256": "052c135769d4cc925c9d55bd9811aa38088cf56eaaf4b58bc5349f355e806839"
+    },
+    {
+      "path": "lean/W3/InfinitesimalAlgebraicPresentation.lean",
+      "bytes": 3199,
+      "sha256": "27d71062c4811a6bc45eb01e430925e882c7831320641cec101e1b8dd2fe5dc2"
+    },
+    {
+      "path": "lean/W3/InfinitesimalAlgebraicResidue.lean",
+      "bytes": 4629,
+      "sha256": "8fe91186c8fc48f2902acae0003cb168e8e1d1e662d07ffce1a3c7f6e266b755"
+    },
+    {
+      "path": "lean/W3/InfinitesimalAlgebraicTower.lean",
+      "bytes": 3391,
+      "sha256": "baf39c936b5007e8d9055f55a78223eaf0db4a567e7907cac6a69aac442965e9"
+    },
+    {
+      "path": "lean/W3/InfinitesimalAlgebraicTowerExtension.lean",
+      "bytes": 6976,
+      "sha256": "6bd02e08b75a40615001176eeedf9a41d09057010b5cde1bd11073058d48fa9e"
+    },
+    {
+      "path": "lean/W3/InfinitesimalAnnihilator.lean",
+      "bytes": 6912,
+      "sha256": "4d7eec8b4ed9ab700a57498ce4054c2c22c50d7aaace08a6e36a2c051826222c"
+    },
+    {
+      "path": "lean/W3/InfinitesimalBoundsTransfer.lean",
+      "bytes": 3165,
+      "sha256": "6e495c9e485337333c8c04a0c26b2e9be4a1483d0f1cc33880a47571a1958b24"
+    },
+    {
+      "path": "lean/W3/InfinitesimalCoefficientPresentation.lean",
+      "bytes": 6096,
+      "sha256": "34d117a18da6e1c2091388a32cc18d73c7a2368b3b71fb1167645e7458014847"
+    },
+    {
+      "path": "lean/W3/InfinitesimalCoefficientResidueProgram.lean",
+      "bytes": 4645,
+      "sha256": "6382754b8fe09b0f31823ad67bcb9a9200f4e4a9b43941dbe06fd67b9bcc12ca"
+    },
+    {
+      "path": "lean/W3/InfinitesimalExpressionCompiler.lean",
+      "bytes": 7801,
+      "sha256": "e800449760b9d9c04fe450f429f7e1c926add957a71ad0d2b4bb4d615757f4e8"
+    },
+    {
+      "path": "lean/W3/InfinitesimalExtension.lean",
+      "bytes": 3211,
+      "sha256": "c7bd13917184569d41d6f7fba4e87bb11c211c353f89ed19112038e8be741b81"
+    },
+    {
+      "path": "lean/W3/InfinitesimalFiniteDenominators.lean",
+      "bytes": 2793,
+      "sha256": "69c79d12a993d39320788fc90777f8da36ec0c590c03cc64b4dd0e9728d31303"
+    },
+    {
+      "path": "lean/W3/InfinitesimalFiniteNormalization.lean",
+      "bytes": 2653,
+      "sha256": "7364ee25967c7b4e5f73372c1028c734acdf04d974a7f2325292fc73b5084884"
+    },
+    {
+      "path": "lean/W3/InfinitesimalFinitePresentation.lean",
+      "bytes": 3037,
+      "sha256": "4861091ea7e907c6cff8a3ef1f3f009fcd614ebd09adb97b6b01e3c07e7dbb47"
+    },
+    {
+      "path": "lean/W3/InfinitesimalFiniteResidue.lean",
+      "bytes": 3314,
+      "sha256": "6d12f083a88c86909b64a42a16e9d9d30c1915e991ef959ce4db267b8c612355"
+    },
+    {
+      "path": "lean/W3/InfinitesimalFiniteSelection.lean",
+      "bytes": 3968,
+      "sha256": "404f25efb0d15a84a2d45346ef9792d92f646f8035921ee0c6dcfd8316d29374"
+    },
+    {
+      "path": "lean/W3/InfinitesimalFormulaTransfer.lean",
+      "bytes": 6910,
+      "sha256": "77b09bc81e82cfd67a28e925eebf0b06e156c6820e15539ea8ebcbb3ab7929ca"
+    },
+    {
+      "path": "lean/W3/InfinitesimalHierarchy.lean",
+      "bytes": 4350,
+      "sha256": "c29da82fd599a074df10f46e2677697af37e54dce507433e2b336250b7d90418"
+    },
+    {
+      "path": "lean/W3/InfinitesimalIndependence.lean",
+      "bytes": 3465,
+      "sha256": "0042eaa6f6fdc992cc768b48af9cfb9f3aabaa2ec856e43975e7d7f6bedcf797"
+    },
+    {
+      "path": "lean/W3/InfinitesimalInversePresentation.lean",
+      "bytes": 3220,
+      "sha256": "eab8f528f3a6a9333a07d2d98400feb0be1064569ea64bc129cdd0fc149ec50c"
+    },
+    {
+      "path": "lean/W3/InfinitesimalMinimumTransfer.lean",
+      "bytes": 6076,
+      "sha256": "533483dba721dd24c770526d89f4894a6c7a049d27c449626f7e5135acd2ab7f"
+    },
+    {
+      "path": "lean/W3/InfinitesimalPerturbation.lean",
+      "bytes": 3559,
+      "sha256": "e72b8626fa75c64e6f372dfe33ddc633bc8b7a20e2bee48e8f9153695615788f"
+    },
+    {
+      "path": "lean/W3/InfinitesimalPresentedExpression.lean",
+      "bytes": 3128,
+      "sha256": "2effed8bcae08c0541e6f28d6d7b197db687220308702d9ec90eccf6e3424f10"
+    },
+    {
+      "path": "lean/W3/InfinitesimalRationalPresentation.lean",
+      "bytes": 3200,
+      "sha256": "be97acafa9d30adaa23b75914fc996c3221a871396943b974e3e4c0527562557"
+    },
+    {
+      "path": "lean/W3/InfinitesimalRationalTower.lean",
+      "bytes": 4456,
+      "sha256": "2c5eb2c649553d2c4b714ccfdc9ca1ea9a9f18f48bdd5be81b89779c073dc84f"
+    },
+    {
+      "path": "lean/W3/InfinitesimalRealBase.lean",
+      "bytes": 678,
+      "sha256": "8dac464c4d43111aae1e09c05948b553ca89a9e42d952ce1f4d0f21628538b27"
+    },
+    {
+      "path": "lean/W3/InfinitesimalRealClosed.lean",
+      "bytes": 5658,
+      "sha256": "0902b67ae387e657235ad477eb4887e7f286a00ef26f3819eec6f8c657b7fb24"
+    },
+    {
+      "path": "lean/W3/InfinitesimalRealClosedReal.lean",
+      "bytes": 1610,
+      "sha256": "e83b67aee359ec63e81ebcb80c2d1ce79e946a032938f7bba266ca310a6bfc5f"
+    },
+    {
+      "path": "lean/W3/InfinitesimalRelativeResidue.lean",
+      "bytes": 2229,
+      "sha256": "1633a439ca7589ed413179fc526bbae98f29693750295ca892239fc8ab26627e"
+    },
+    {
+      "path": "lean/W3/InfinitesimalResidue.lean",
+      "bytes": 3244,
+      "sha256": "7f1d36683668ef650283c6e03fb06e8c69cc5fbf90b97aaa88b4767c62a00125"
+    },
+    {
+      "path": "lean/W3/InfinitesimalResidueExecution.lean",
+      "bytes": 6689,
+      "sha256": "f52fe8320c74050f50b64d9628b824358b8d1214d59bb1b3d6a546d631fdba2f"
+    },
+    {
+      "path": "lean/W3/InfinitesimalRootClustering.lean",
+      "bytes": 2168,
+      "sha256": "1447a24a7faa9ae839506f7b9f4765dc64b588753485603b0a2a8f8d78c5af91"
+    },
+    {
+      "path": "lean/W3/InfinitesimalRootClusteringTransfer.lean",
+      "bytes": 7161,
+      "sha256": "9596c3bfb25b49849441b61add8cb08930c43727dac52c37e6307cd7c07c323f"
+    },
+    {
+      "path": "lean/W3/InfinitesimalRootPresentation.lean",
+      "bytes": 3879,
+      "sha256": "510973a27509b150664f0e3a1094d6b007f000075bd1ab2038f82d93386a07bc"
+    },
+    {
+      "path": "lean/W3/InfinitesimalSigns.lean",
+      "bytes": 4560,
+      "sha256": "a4d8dd860ddcd6bd6b39d5223fa293a36d09a39f575ea5043558ef7335bd93e4"
+    },
+    {
+      "path": "lean/W3/InfinitesimalSuccessiveResidue.lean",
+      "bytes": 5589,
+      "sha256": "eaada4a654c75c699ddbf4e8b056acc5ede5c794efe3d0b8ea9086b4f4490887"
+    },
+    {
+      "path": "lean/W3/InfinitesimalTensorPresentation.lean",
+      "bytes": 1777,
+      "sha256": "9919a8bd2dd0b042d1208dccad6577f56f280d95fef27204098be16765cc3186"
+    },
+    {
+      "path": "lean/W3/InfinitesimalTower.lean",
+      "bytes": 2750,
+      "sha256": "d6d3781fa5d0f081e1228ad7a670f2a2f73c542ca19e6ab1e11ae2cc78e8c8de"
+    },
+    {
+      "path": "lean/W3/InfinitesimalTranscendence.lean",
+      "bytes": 2166,
+      "sha256": "397d8d0d8c14737943e67f30ae28c31ca3cc5c938c4dd99907a1be96b98de0b4"
+    },
+    {
+      "path": "lean/W3/InfinitesimalTranslation.lean",
+      "bytes": 4682,
+      "sha256": "17ddf2923ae811eb41aa32a087e4b0eccfe26ee0f66984ffd6a7fed35df6b037"
+    },
+    {
+      "path": "lean/W3/InfinitesimalW3Minimum.lean",
+      "bytes": 3176,
+      "sha256": "e424c96a8bc364ed4c57eba337dab50efc9ca1fd83a03b88324c47c2f80c3519"
+    },
+    {
+      "path": "lean/W3/Main.lean",
+      "bytes": 4726,
+      "sha256": "3b3ee66f07ffc77b3e11a265b4742497abc8543b49c305a01c79d7c9fa1ad1cf"
+    },
+    {
+      "path": "lean/W3/Model.lean",
+      "bytes": 5658,
+      "sha256": "606db303e1dca0ea591b9b3e4670ea967949d8eea0eccafbc1eb6ea6bce78fb3"
+    },
+    {
+      "path": "lean/W3/Operator.lean",
+      "bytes": 10239,
+      "sha256": "9633036a86358becdf4fec6ade462bdcbe1e5c1cbda83df05fa523537edbc3c1"
+    },
+    {
+      "path": "lean/W3/OperatorBridge.lean",
+      "bytes": 7047,
+      "sha256": "c34649a8dd9194fc5a2822dfa46e63d9074756cbec8c97aea42363e372c044c9"
+    },
+    {
+      "path": "lean/W3/OperatorCharged.lean",
+      "bytes": 6364,
+      "sha256": "e185696302bfe8b3123695f4df62972eea83fff2b315ae28d69defc7e61627fb"
+    },
+    {
+      "path": "lean/W3/OperatorConcrete.lean",
+      "bytes": 7238,
+      "sha256": "f93f91726ec9d5e797a6a4cf3f4f4b6c848221045ac356f11d5cc3c9d151b80a"
+    },
+    {
+      "path": "lean/W3/OperatorCorrespondence.lean",
+      "bytes": 4394,
+      "sha256": "cb3cb79d0fc2e82ca5fa460a235fb9e04477cb21446fff45070b0df9b8e188a6"
+    },
+    {
+      "path": "lean/W3/OperatorField.lean",
+      "bytes": 4818,
+      "sha256": "aa82e5d0cfee29a34748ac58612e5e00df892052ef7add2a6e7c29636ebda263"
+    },
+    {
+      "path": "lean/W3/OperatorFieldAmplitude.lean",
+      "bytes": 11796,
+      "sha256": "a0f8741bbdccc5a3bc7885d8c7c1d095a35c461599e3415c694272ce9d3f6bb8"
+    },
+    {
+      "path": "lean/W3/OperatorFieldCandidates.lean",
+      "bytes": 8503,
+      "sha256": "994dd07fede6a49469a2a2b7ba8f25abc3f15f390454868aaf013c436b59e720"
+    },
+    {
+      "path": "lean/W3/OperatorFieldCharged.lean",
+      "bytes": 6052,
+      "sha256": "95798bb31a77aed9aa3951a8e7355edd4f251093292593783666456c7283913a"
+    },
+    {
+      "path": "lean/W3/OperatorFieldFormula.lean",
+      "bytes": 2515,
+      "sha256": "df5a773acbdc4ee0d5fdf5aa2fb99a7817c3f9341a8f50d8c76fd984f7377d24"
+    },
+    {
+      "path": "lean/W3/OperatorFieldGeneric.lean",
+      "bytes": 4676,
+      "sha256": "914e513033bd6a7b7a0e91823a1975e4e07308f9f38a0ca199c067202b48ff35"
+    },
+    {
+      "path": "lean/W3/OperatorFieldInvariance.lean",
+      "bytes": 11436,
+      "sha256": "d7979ee7130143cc2628732cd1304c5b918a64041b883a5fef5e74204adcc8ca"
+    },
+    {
+      "path": "lean/W3/OperatorFieldLinear.lean",
+      "bytes": 8289,
+      "sha256": "8c55230d8b866bf5e39ce6954f5350c9ea959ca95cb14f6ed9481aae136692cb"
+    },
+    {
+      "path": "lean/W3/OperatorFieldSoundness.lean",
+      "bytes": 4308,
+      "sha256": "b3436e38162d521817d6fe3d557233d5b9f130c6dbb32aa366ea7c0ad2f780ef"
+    },
+    {
+      "path": "lean/W3/OperatorFieldTwoSpectrum.lean",
+      "bytes": 5984,
+      "sha256": "d6a5d3d3b4b8484b777551c2aaceb819c3f1c166126905c4d0e834c30c457bee"
+    },
+    {
+      "path": "lean/W3/OperatorGenericCharged.lean",
+      "bytes": 7854,
+      "sha256": "34e2e632b97f599bb26dec26854240ea0f645465eca1390f7813e2630c29f9cc"
+    },
+    {
+      "path": "lean/W3/OperatorInvariance.lean",
+      "bytes": 5136,
+      "sha256": "21a2310b21d8d22f53beaf113b87b6957dc5858e15899b87c5f858fb34620463"
+    },
+    {
+      "path": "lean/W3/OperatorMinimum.lean",
+      "bytes": 3346,
+      "sha256": "ca93414f5405e2d2fe7bb438114327b585c403865424b55953a51936f278bbfa"
+    },
+    {
+      "path": "lean/W3/OperatorModel.lean",
+      "bytes": 4217,
+      "sha256": "a5dd2b3a5895072cfffadf45c0c3682a78d88f0e7305170013b3022e908a779e"
+    },
+    {
+      "path": "lean/W3/OperatorPhysical.lean",
+      "bytes": 3456,
+      "sha256": "cc07707acc265065223c84a9a61c80ec1f0a56c9d9e394c080571158dcfdd392"
+    },
+    {
+      "path": "lean/W3/OperatorPoles.lean",
+      "bytes": 5625,
+      "sha256": "c8d9f92869cecb76b92e2fd20e7dd3bfc106f7ed4d449086bc6a79aca5275993"
+    },
+    {
+      "path": "lean/W3/OperatorRank.lean",
+      "bytes": 8453,
+      "sha256": "48027f08d2356faeb9bfc04e6497d59a835d2d282a791a2e8e984251d27c248f"
+    },
+    {
+      "path": "lean/W3/OperatorRealization.lean",
+      "bytes": 3852,
+      "sha256": "e22a02fffb918375a77f14394a5cb7468eff9aeb550077855eeda6b103be4612"
+    },
+    {
+      "path": "lean/W3/OperatorSpectrumBridge.lean",
+      "bytes": 5058,
+      "sha256": "ee726a1d7ab1f5b2e2f7be3ed881b87a59eafc9543d9f42f7879e15d450dbb8f"
+    },
+    {
+      "path": "lean/W3/OperatorStationarity.lean",
+      "bytes": 8550,
+      "sha256": "6ca94678e93b4ce8abe71f49edacf11da70c281ebc02b8f79d7f9e611db400d7"
+    },
+    {
+      "path": "lean/W3/OperatorStrata.lean",
+      "bytes": 5814,
+      "sha256": "74cea361c0c570feedfd65b54e3c0c9267b1229ba72b6cf5584f3ba624507615"
+    },
+    {
+      "path": "lean/W3/OperatorSupports.lean",
+      "bytes": 8169,
+      "sha256": "42fa9917fd263de4a7bd67abf871d81dba100677b1aa5abc0e4cce54e68402f1"
+    },
+    {
+      "path": "lean/W3/OperatorTwoSpectrum.lean",
+      "bytes": 15953,
+      "sha256": "45deb77c20e5419b23461b6cd15bce1542c337dfaadc895f8c6f953c9fc4cc7a"
+    },
+    {
+      "path": "lean/W3/PhysicalFields.lean",
+      "bytes": 3225,
+      "sha256": "c85aebc4804b6f5d778949d18961317e07a281fddf5692e780625d0e8f9f4d25"
+    },
+    {
+      "path": "lean/W3/PivotedGramFactor.lean",
+      "bytes": 8997,
+      "sha256": "a79ea9071aee7843019dbc1c8f20c7a6cc99d12430366971df6083d46aa31363"
+    },
+    {
+      "path": "lean/W3/PrimalFieldBridge.lean",
+      "bytes": 7664,
+      "sha256": "74901db74e158195701f4416a77597d57823c149ceaad63c8aeb5a7acf536c3e"
+    },
+    {
+      "path": "lean/W3/RealModel.lean",
+      "bytes": 5234,
+      "sha256": "4790be509c9760f67ad325ea98519c004ebf5f2367389906ebef6771e5517d64"
+    },
+    {
+      "path": "lean/W3/RealPerturbation.lean",
+      "bytes": 5774,
+      "sha256": "8447d244da5fb0565257fe765defe15293e12bb804391496239b846afb3f1d6c"
+    },
+    {
+      "path": "lean/W3/SemanticFixtures.lean",
+      "bytes": 3059,
+      "sha256": "a6ee1a932d881a3b8022e8572ecab90a9bbd8d6a3d1cfae0cb9b3fe87751381a"
+    },
+    {
+      "path": "lean/W3/StrataTransfer.lean",
+      "bytes": 2338,
+      "sha256": "9192561eadc0343ddcbb4a489f6fceb41e14511e08f3a44756385ac91d1e63d2"
+    },
+    {
+      "path": "lean/W3/StrataTransferFormula.lean",
+      "bytes": 6253,
+      "sha256": "7acdf6ca991ce0ebc2daf4aab1b38fa12ea06f0bcb2c4c50efbc5f19bd325832"
+    },
+    {
+      "path": "lean/W3/StrataTransferModel.lean",
+      "bytes": 5699,
+      "sha256": "47018c2f9e621a823b0c23384fffe7eeed3ff032062eaaefc48b5f58aa6c9059"
+    },
+    {
+      "path": "lean/W3/StrataTransferReal.lean",
+      "bytes": 5630,
+      "sha256": "14409035b1c3a8e262d24952f5a233a65bfc54cba3c8230e934b9964c0482290"
+    },
+    {
+      "path": "lean/W3/StrataTransferSyntax.lean",
+      "bytes": 3156,
+      "sha256": "7eebeeafaa1d7c14269519a3a19e23b2d7aac66fd427c05acbcf0f22c2d000d3"
+    },
+    {
+      "path": "lean/W3/TransferOperatorCheck.lean",
+      "bytes": 1326,
+      "sha256": "f609f24f9f4307347f5d701b418753fa81a7738133628c06ef6e9361364df035"
+    },
+    {
+      "path": "lean/W3/TransferOperatorEnergy.lean",
+      "bytes": 8962,
+      "sha256": "d64eab1c4576a919a8cc75e90c0719155536b2872eb541e331bdea02d9b22395"
+    },
+    {
+      "path": "lean/W3/TransferOperatorPhysical.lean",
+      "bytes": 9959,
+      "sha256": "b2444db4ac94f7399270052ddb432c1b03e8844b242a98bee6eb9d35d9dfca18"
+    },
+    {
+      "path": "lean/W3/TransferOperatorResidue.lean",
+      "bytes": 9490,
+      "sha256": "94b3284f0bb3bfdca03486c096cb1cb504b15459f74f225901174911afa0785e"
+    },
+    {
+      "path": "lean/W3/TransferOperatorRetained.lean",
+      "bytes": 9449,
+      "sha256": "424d77214b3b984fd40e83dabbc32e3b41952372311010cfeef6cecf110c9d6e"
+    },
+    {
+      "path": "lean/W3/TransferOperatorRetainedResidue.lean",
+      "bytes": 3609,
+      "sha256": "02d6d82bb6a97d5f3258e703e9674e1477ab8f30c2db5768877a835e90c5c56d"
+    },
+    {
+      "path": "lean/W3/TransferOperatorStrata.lean",
+      "bytes": 6122,
+      "sha256": "b58a225aefed416af98c77cb6091eb8f64c77dffb542ee5e57ee1efa7f17904e"
+    },
+    {
+      "path": "lean/W3/UniversalCriterion.lean",
+      "bytes": 4062,
+      "sha256": "2644282e07725e80985f6ac789c340ae5bdfc9d7759e7bed3dd0a82d2cf2d675"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebra.lean",
+      "bytes": 5282,
+      "sha256": "f3f58698d9bd7aa833f5d6176a9ec912b3be437da9c3147fb252d02e5a4227e1"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicity.lean",
+      "bytes": 5526,
+      "sha256": "ae1e3f895f08a4e0d85fd9cfc09e9564379f4d7f1c3e8959a2657159daacbe7d"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityActual.lean",
+      "bytes": 6283,
+      "sha256": "4feaff334b9633ef124d124fd626d630a748119ce267d90e72e4bf453eb09c1c"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityBounds.lean",
+      "bytes": 2310,
+      "sha256": "f928c3c9171a3a6f3f005cf52324f5f55975a87e792048cbea262bc42049d43a"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityCandidates.lean",
+      "bytes": 6762,
+      "sha256": "e63c4c004874a1c7a9ea8da5b9111e30b809d9a54466b156a0a5637101a7dac7"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityCanonical.lean",
+      "bytes": 2211,
+      "sha256": "b6fdd5017ef3bb968e3b976ee27bb76e666d1d5e37b731718f31369d1adc1623"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityCompiled.lean",
+      "bytes": 4145,
+      "sha256": "aa23775ed4c69f6ff455278f36ec09bf73440906d8c07aa2d98fdc242772b03a"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityEigen.lean",
+      "bytes": 3270,
+      "sha256": "995a16625ddad3b18aae270d54f9ec19dd3c4f3597281b7fd453500fd9d0009f"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityExecution.lean",
+      "bytes": 6132,
+      "sha256": "2e6d610e4cb155019e72f015f27cc352d089dbaab094fb2c635e4878b9c5e2bf"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityExecutionMatrices.lean",
+      "bytes": 4267,
+      "sha256": "777fb0b1c52c714c205487209fa5faa934e57361bff3f479e38b1de5fe082213"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityExpressions.lean",
+      "bytes": 19728,
+      "sha256": "0ec625413f4b0914aa7114a179da159b853db2fb3e4a08908755c4681eae807a"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityExpressionsActual.lean",
+      "bytes": 4285,
+      "sha256": "1afcf42f9f64bf9d5639944250bb283ca7c7590ae993357808ebffe4d43a7226"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityExpressionsCanonical.lean",
+      "bytes": 2155,
+      "sha256": "cc2af5e7072c08b9ea0736106a86e864231b39614ad7036fa6af7f166ff57c42"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityExpressionsMinimum.lean",
+      "bytes": 1027,
+      "sha256": "48875c3546d78fbb5c2148e43f39f099f9ecf00be8fdde21a2e0c7c757e6d4a0"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityExpressionsOperator.lean",
+      "bytes": 5007,
+      "sha256": "a180673d19029acb32023ca483186e0287a026fefd95c886875339e0dc0cc529"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityExpressionsReconstruction.lean",
+      "bytes": 3551,
+      "sha256": "8ba2c09f01d57c9db25165aaa644ebc0d1a931ec732e21633519a470d0730ce9"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityMinimum.lean",
+      "bytes": 2848,
+      "sha256": "b10bcc37ee803a417fbb7bafa0b26c72a7f4c27b7be0a5996a4603f8a32c796c"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityOperator.lean",
+      "bytes": 5180,
+      "sha256": "8b7f70cd4de44f59dc125244584f4c4567d9ccf079713daabd97930e934ee5d7"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityReconstruction.lean",
+      "bytes": 3634,
+      "sha256": "c74380a43ec449641e9894178b62435cdc48fc44ff486037dc9c6e70ad8e164c"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicitySelected.lean",
+      "bytes": 3167,
+      "sha256": "b5b0dacb546ff635779d37be672be079581a17e45168a006b27c49ab8a3ab5f5"
+    },
+    {
+      "path": "lean/W3/WeightedAlgebraicityWitnesses.lean",
+      "bytes": 4673,
+      "sha256": "32ea823e252c19c03eae47a091f422b519e5c0ab0f1e57102c79afd84a18b600"
+    },
+    {
+      "path": "lean/W3/WeightedAmplitude.lean",
+      "bytes": 12422,
+      "sha256": "ddd4c95737a9f24f99147d02ef24f9801184a82f8bad5d1246624d80a0a3fd95"
+    },
+    {
+      "path": "lean/W3/WeightedCorrespondence.lean",
+      "bytes": 9806,
+      "sha256": "a289e60dc179bdbe934b961da49d388ac22896034033f9f5fecef3f3311e6cc5"
+    },
+    {
+      "path": "lean/W3/WeightedCoverage.lean",
+      "bytes": 7755,
+      "sha256": "68434315d2a633c873509c863bcf018fb7e7b85b2663f6d447e7526f748c8140"
+    },
+    {
+      "path": "lean/W3/WeightedExact.lean",
+      "bytes": 2842,
+      "sha256": "2d5ee127fcff1b6b56fb1db32f774c6604ca4e50060250da4afc7558f5896145"
+    },
+    {
+      "path": "lean/W3/WeightedHalfAngle.lean",
+      "bytes": 4087,
+      "sha256": "b9de0ef3834fb1afee798c685929e5bf4d1d671da8751e785c22ca1dd97b5a3a"
+    },
+    {
+      "path": "lean/W3/WeightedInverseBridge.lean",
+      "bytes": 5872,
+      "sha256": "6c957eb15cfc1c056dead2030d80e7a9fbbda7b7ae5dd1dd545b6d6579dd5382"
+    },
+    {
+      "path": "lean/W3/WeightedOperatorBridge.lean",
+      "bytes": 7427,
+      "sha256": "13faafc9e63f263e24be8a3a17538d56e08ab62bc8897bea41b02ed28f7f5a14"
+    },
+    {
+      "path": "lean/W3/WeightedPair.lean",
+      "bytes": 4028,
+      "sha256": "d8d765de4244b57a9707d1cd13dd91ac2208a7cc5a6e9789a98d01afd8ec05df"
+    },
+    {
+      "path": "lean/W3/WeightedPairPhase.lean",
+      "bytes": 2896,
+      "sha256": "43e0b089bc974656f66dcb23210142b0dea8c2e0286ead024118371ff8269c33"
+    },
+    {
+      "path": "lean/W3/WeightedPhase.lean",
+      "bytes": 4314,
+      "sha256": "5206480f4bc54c99713f68a42ed0d5b25bc3368a1cab74eb27e079f07b167548"
+    },
+    {
+      "path": "lean/W3/WeightedRadial.lean",
+      "bytes": 5826,
+      "sha256": "87ac9b87cea07f88ca56c4a47b6dad3b2c6972ec683764d9c2480ae5fd833687"
+    },
+    {
+      "path": "lean/W3/WeightedRealization.lean",
+      "bytes": 7329,
+      "sha256": "b2fd5596fe60a1872f0610d5b946fd3802961d9bb117dfda432895433f570ac1"
+    },
+    {
+      "path": "lean/W3/WeightedRepresentatives.lean",
+      "bytes": 6719,
+      "sha256": "dd89e71e3091f52acf1f519487cd9a7268a9f9e6f4d90c3d7a64a86471a8ddab"
+    },
+    {
+      "path": "lean/W3/WeightedSoundness.lean",
+      "bytes": 7654,
+      "sha256": "509ebba78587a586cf0f0bf1e6f62d482864d94a7bb038f43fa55647a9c1a9ce"
+    },
+    {
+      "path": "lean/W3/WeightedSpectrum.lean",
+      "bytes": 13414,
+      "sha256": "28ae1f796b753d5e07a3364522821ab3c9f56ecc2e4eaa502bf9c16068c729d9"
+    },
+    {
+      "path": "lean/W3/WeightedStationarity.lean",
+      "bytes": 4954,
+      "sha256": "f84741be995a7a2faea92429a69e545bba941f68b469b5c2525c8832c7580c70"
+    },
+    {
+      "path": "lean/W3/WeightedSupports.lean",
+      "bytes": 6058,
+      "sha256": "7c56138e4075ef69ffda6e256f19beed5f9641a2484dc803ecfcfce1d2a42c67"
+    },
+    {
+      "path": "lean/W3/WeightedValue.lean",
+      "bytes": 3974,
+      "sha256": "02ea2a649fd7d1cc359159a4e2fdff2e8895c8f370fe5b667a82db37f41d8104"
+    },
+    {
+      "path": "lean/W3.lean",
+      "bytes": 26,
+      "sha256": "ba653ff2a9150480c634cbabbe854e6f6a5b36acfba32a34a264974a053f281c"
+    }
+  ],
+  "unchanged_portable_support_files": [
+    {
+      "path": "lean/lean-toolchain",
+      "bytes": 25,
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "bytes": 3545,
+      "sha256": "60ed0953d6257705b4dd82d89c93a6372b6932456b5f4113f43921b5da92c4b7"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "bytes": 263,
+      "sha256": "31ac89bb448d2aa52ef8ce5d6c279f15af58c85baf4e8592c828825cd7cb3521"
+    },
+    {
+      "path": "lean/scripts/AUDIT_BODY.txt",
+      "bytes": 1573,
+      "sha256": "4ec01a07f465067d001c19d65ce37781fdfded8b18fe378325e9c66ea913e9fc"
+    },
+    {
+      "path": "lean/scripts/PRINT_AXIOMS_BODY.txt",
+      "bytes": 490,
+      "sha256": "f29490b18893629e85523721749a3a15a68c4714240d77514d41a94a25d6252a"
+    },
+    {
+      "path": "lean/scripts/bootstrap_cache.py",
+      "bytes": 763,
+      "sha256": "7784fbea3ced8f4c063ce9c4a990f79f9b707bcfa91d86f2f091b78567fafbd7"
+    },
+    {
+      "path": "lean/scripts/portable_fresh_build.py",
+      "bytes": 4075,
+      "sha256": "0ccda28e726316fad270a19b20f83e8770f62f1dc06303f48ed6358d35ce97fd"
+    },
+    {
+      "path": "lean/scripts/portable_kernel_audit.py",
+      "bytes": 5813,
+      "sha256": "b416777d27e58596dab0ed4db1815d0bf56104f61941901fc59be8fbcc73b6ae"
+    },
+    {
+      "path": "lean/scripts/run_portable.py",
+      "bytes": 4214,
+      "sha256": "1458763ec58e31e042f60aa6ec75b3da35d7a8345c58ffc9adecf591876d1de5"
+    },
+    {
+      "path": "lean/scripts/setup_dependencies.py",
+      "bytes": 6333,
+      "sha256": "8ca1d918130684892cf8d9cd71cf8958889852c9671256e03819ff9fbed70cf9"
+    }
+  ],
+  "transformation": "Selected exact source-file identities from the frozen validation record; development-only absolute paths, environment metadata and unpublished helper references are omitted. Published proof bytes are unchanged."
+}

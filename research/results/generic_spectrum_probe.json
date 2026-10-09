@@ -1,0 +1,163 @@
+{
+  "scope": "Floating diagnostic; no complete root isolation or global optimality certification",
+  "models": [
+    {
+      "index": 0,
+      "spectrum_minimum_found": -0.5336861791850525,
+      "direct_field_minimum_found": -0.5336861791850528,
+      "difference": 3.3306690738754696e-16,
+      "winning_kind": "charged",
+      "winning_support": [
+        0,
+        2
+      ],
+      "physical_candidate_count": 24,
+      "max_candidate_value_identity_error": 2.220446049250313e-16
+    },
+    {
+      "index": 1,
+      "spectrum_minimum_found": -0.649344026958411,
+      "direct_field_minimum_found": -0.6493440269584113,
+      "difference": 3.3306690738754696e-16,
+      "winning_kind": "neutral",
+      "winning_support": [
+        0,
+        1,
+        2
+      ],
+      "physical_candidate_count": 18,
+      "max_candidate_value_identity_error": 2.220446049250313e-16
+    },
+    {
+      "index": 2,
+      "spectrum_minimum_found": -0.38357814463977324,
+      "direct_field_minimum_found": -0.3835781446397733,
+      "difference": 5.551115123125783e-17,
+      "winning_kind": "charged",
+      "winning_support": [
+        0,
+        2
+      ],
+      "physical_candidate_count": 16,
+      "max_candidate_value_identity_error": 4.440892098500626e-16
+    },
+    {
+      "index": 3,
+      "spectrum_minimum_found": -0.3682748610136191,
+      "direct_field_minimum_found": -0.36827486101361934,
+      "difference": 2.220446049250313e-16,
+      "winning_kind": "neutral",
+      "winning_support": [
+        0,
+        2
+      ],
+      "physical_candidate_count": 13,
+      "max_candidate_value_identity_error": 2.220446049250313e-16
+    },
+    {
+      "index": 4,
+      "spectrum_minimum_found": -0.7642625322242266,
+      "direct_field_minimum_found": -0.7642625322242269,
+      "difference": 3.3306690738754696e-16,
+      "winning_kind": "neutral",
+      "winning_support": [
+        1,
+        2
+      ],
+      "physical_candidate_count": 13,
+      "max_candidate_value_identity_error": 3.3306690738754696e-16
+    },
+    {
+      "index": 5,
+      "spectrum_minimum_found": -0.5545604768613916,
+      "direct_field_minimum_found": -0.5545604768613919,
+      "difference": 2.220446049250313e-16,
+      "winning_kind": "charged",
+      "winning_support": [
+        0,
+        1,
+        2
+      ],
+      "physical_candidate_count": 21,
+      "max_candidate_value_identity_error": 1.1102230246251565e-16
+    },
+    {
+      "index": 6,
+      "spectrum_minimum_found": -0.3259339623188882,
+      "direct_field_minimum_found": -0.32593396231888844,
+      "difference": 2.220446049250313e-16,
+      "winning_kind": "neutral",
+      "winning_support": [
+        0,
+        2
+      ],
+      "physical_candidate_count": 19,
+      "max_candidate_value_identity_error": 4.440892098500626e-16
+    },
+    {
+      "index": 7,
+      "spectrum_minimum_found": -0.34970831991570894,
+      "direct_field_minimum_found": -0.3497083199157091,
+      "difference": 1.6653345369377348e-16,
+      "winning_kind": "neutral",
+      "winning_support": [
+        0,
+        1
+      ],
+      "physical_candidate_count": 16,
+      "max_candidate_value_identity_error": 3.0531133177191805e-16
+    },
+    {
+      "index": 8,
+      "spectrum_minimum_found": -0.5603519375877435,
+      "direct_field_minimum_found": -0.5603519375877437,
+      "difference": 2.220446049250313e-16,
+      "winning_kind": "charged",
+      "winning_support": [
+        0,
+        2
+      ],
+      "physical_candidate_count": 19,
+      "max_candidate_value_identity_error": 2.220446049250313e-16
+    },
+    {
+      "index": 9,
+      "spectrum_minimum_found": -0.8507404271501728,
+      "direct_field_minimum_found": -0.8507404271501732,
+      "difference": 3.3306690738754696e-16,
+      "winning_kind": "neutral",
+      "winning_support": [
+        1,
+        2
+      ],
+      "physical_candidate_count": 18,
+      "max_candidate_value_identity_error": 1.249000902703301e-16
+    },
+    {
+      "index": 10,
+      "spectrum_minimum_found": -0.7557284915029139,
+      "direct_field_minimum_found": -0.7557284915029144,
+      "difference": 5.551115123125783e-16,
+      "winning_kind": "neutral",
+      "winning_support": [
+        0,
+        2
+      ],
+      "physical_candidate_count": 17,
+      "max_candidate_value_identity_error": 2.220446049250313e-16
+    },
+    {
+      "index": 11,
+      "spectrum_minimum_found": -0.04463577381372964,
+      "direct_field_minimum_found": -0.044635773813729664,
+      "difference": 2.0816681711721685e-17,
+      "winning_kind": "charged",
+      "winning_support": [
+        0,
+        2
+      ],
+      "physical_candidate_count": 19,
+      "max_candidate_value_identity_error": 2.220446049250313e-16
+    }
+  ]
+}

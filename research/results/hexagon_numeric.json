@@ -1,0 +1,355 @@
+{
+  "scope": "Floating diagnostic; no exact real-root/sign isolation",
+  "models": [
+    {
+      "index": 0,
+      "sextic_spectrum_minimum_found": -0.5336861791850525,
+      "direct_field_minimum_found": -0.5336861791850528,
+      "difference": 3.3306690738754696e-16,
+      "winning_constructor": "charged-dual",
+      "winning_support": [
+        0,
+        2
+      ],
+      "winning_eigenvalues": [
+        -2.7755575615628914e-17,
+        0.2542921376491675,
+        0.7457078623508322
+      ],
+      "physical_candidates_found": 24,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 4.358492733391728e-17
+        },
+        "dual": {
+          "real_phase_roots_found": 6,
+          "maximum_base_factor_remainder": 1.942890293094024e-16
+        },
+        "max_purity_identity_error": 2.220446049250313e-16,
+        "max_kernel_residual": 1.5095787997038744e-15
+      }
+    },
+    {
+      "index": 1,
+      "sextic_spectrum_minimum_found": -0.6493440269584111,
+      "direct_field_minimum_found": -0.6493440269584113,
+      "difference": 2.220446049250313e-16,
+      "winning_constructor": "neutral",
+      "winning_support": [
+        0,
+        1,
+        2
+      ],
+      "winning_eigenvalues": [
+        -6.636387903270313e-17,
+        3.860830341707417e-17,
+        1.0000000000000002
+      ],
+      "physical_candidates_found": 18,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 6,
+          "maximum_base_factor_remainder": 8.283304597789254e-17
+        },
+        "dual": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 7.19910242530375e-17
+        },
+        "max_purity_identity_error": 5.684341886080802e-14,
+        "max_kernel_residual": 8.846982482867505e-15
+      }
+    },
+    {
+      "index": 2,
+      "sextic_spectrum_minimum_found": -0.383578144639774,
+      "direct_field_minimum_found": -0.3835781446397733,
+      "difference": -7.216449660063518e-16,
+      "winning_constructor": "charged-dual",
+      "winning_support": [
+        0,
+        2
+      ],
+      "winning_eigenvalues": [
+        -5.793976409762536e-16,
+        0.11722526582928419,
+        0.8827747341707177
+      ],
+      "physical_candidates_found": 16,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 1.1657341758564144e-15
+        },
+        "dual": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 3.0531133177191805e-16
+        },
+        "max_purity_identity_error": 2.6645352591003757e-14,
+        "max_kernel_residual": 2.2893971699383943e-14
+      }
+    },
+    {
+      "index": 3,
+      "sextic_spectrum_minimum_found": -0.36827486101361906,
+      "direct_field_minimum_found": -0.36827486101361934,
+      "difference": 2.7755575615628914e-16,
+      "winning_constructor": "neutral",
+      "winning_support": [
+        0,
+        2
+      ],
+      "winning_eigenvalues": [
+        -8.261380025853393e-17,
+        1.103693758741628e-16,
+        1.0000000000000002
+      ],
+      "physical_candidates_found": 13,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 2,
+          "maximum_base_factor_remainder": 2.983724378680108e-16
+        },
+        "dual": {
+          "real_phase_roots_found": 2,
+          "maximum_base_factor_remainder": 3.8163916471489756e-16
+        },
+        "max_purity_identity_error": 1.4210854715202004e-14,
+        "max_kernel_residual": 1.4760559773000792e-14
+      }
+    },
+    {
+      "index": 4,
+      "sextic_spectrum_minimum_found": -0.7642625322242265,
+      "direct_field_minimum_found": -0.7642625322242269,
+      "difference": 4.440892098500626e-16,
+      "winning_constructor": "neutral",
+      "winning_support": [
+        1,
+        2
+      ],
+      "winning_eigenvalues": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "physical_candidates_found": 13,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 3.209238430557093e-16
+        },
+        "dual": {
+          "real_phase_roots_found": 2,
+          "maximum_base_factor_remainder": 1.5872719805187785e-16
+        },
+        "max_purity_identity_error": 7.105427357601002e-15,
+        "max_kernel_residual": 1.500546718541099e-15
+      }
+    },
+    {
+      "index": 5,
+      "sextic_spectrum_minimum_found": -0.5545604768613918,
+      "direct_field_minimum_found": -0.5545604768613919,
+      "difference": 1.1102230246251565e-16,
+      "winning_constructor": "charged-dual",
+      "winning_support": [
+        0,
+        1,
+        2
+      ],
+      "winning_eigenvalues": [
+        -2.7662134646656963e-16,
+        0.05060718965194567,
+        0.949392810348054
+      ],
+      "physical_candidates_found": 21,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 6,
+          "maximum_base_factor_remainder": 7.632783294297951e-16
+        },
+        "dual": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 1.3964523981613297e-16
+        },
+        "max_purity_identity_error": 4.440892098500626e-16,
+        "max_kernel_residual": 2.956172301045865e-16
+      }
+    },
+    {
+      "index": 6,
+      "sextic_spectrum_minimum_found": -0.3259339623188881,
+      "direct_field_minimum_found": -0.32593396231888844,
+      "difference": 3.3306690738754696e-16,
+      "winning_constructor": "neutral",
+      "winning_support": [
+        0,
+        2
+      ],
+      "winning_eigenvalues": [
+        -1.5714289308534196e-17,
+        1.5449216738667875e-16,
+        0.9999999999999999
+      ],
+      "physical_candidates_found": 19,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 2,
+          "maximum_base_factor_remainder": 3.885780586188048e-16
+        },
+        "dual": {
+          "real_phase_roots_found": 2,
+          "maximum_base_factor_remainder": 3.226585665316861e-16
+        },
+        "max_purity_identity_error": 1.3322676295501878e-15,
+        "max_kernel_residual": 6.059550029937917e-16
+      }
+    },
+    {
+      "index": 7,
+      "sextic_spectrum_minimum_found": -0.34970831991570894,
+      "direct_field_minimum_found": -0.3497083199157091,
+      "difference": 1.6653345369377348e-16,
+      "winning_constructor": "neutral",
+      "winning_support": [
+        0,
+        1
+      ],
+      "winning_eigenvalues": [
+        -1.942890293094024e-16,
+        0.0,
+        0.9999999999999998
+      ],
+      "physical_candidates_found": 16,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 1.7763568394002505e-15
+        },
+        "dual": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 7.771561172376096e-16
+        },
+        "max_purity_identity_error": 2.531308496145357e-14,
+        "max_kernel_residual": 5.768647835609974e-16
+      }
+    },
+    {
+      "index": 8,
+      "sextic_spectrum_minimum_found": -0.5603519375877434,
+      "direct_field_minimum_found": -0.5603519375877437,
+      "difference": 3.3306690738754696e-16,
+      "winning_constructor": "charged-dual",
+      "winning_support": [
+        0,
+        2
+      ],
+      "winning_eigenvalues": [
+        4.85722573273506e-17,
+        0.12981366156497154,
+        0.8701863384350286
+      ],
+      "physical_candidates_found": 19,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 2.393918396847994e-16
+        },
+        "dual": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 1.6132928326584306e-16
+        },
+        "max_purity_identity_error": 1.1102230246251565e-16,
+        "max_kernel_residual": 3.3852371753293676e-16
+      }
+    },
+    {
+      "index": 9,
+      "sextic_spectrum_minimum_found": -0.850740427150173,
+      "direct_field_minimum_found": -0.8507404271501732,
+      "difference": 2.220446049250313e-16,
+      "winning_constructor": "neutral",
+      "winning_support": [
+        1,
+        2
+      ],
+      "winning_eigenvalues": [
+        0.0,
+        8.326672684688674e-17,
+        1.0
+      ],
+      "physical_candidates_found": 18,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 5.898059818321144e-17
+        },
+        "dual": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 3.8163916471489756e-16
+        },
+        "max_purity_identity_error": 6.661338147750939e-16,
+        "max_kernel_residual": 3.477892187380182e-16
+      }
+    },
+    {
+      "index": 10,
+      "sextic_spectrum_minimum_found": -0.7557284915029139,
+      "direct_field_minimum_found": -0.7557284915029144,
+      "difference": 5.551115123125783e-16,
+      "winning_constructor": "neutral",
+      "winning_support": [
+        0,
+        2
+      ],
+      "winning_eigenvalues": [
+        -3.7685477542637503e-17,
+        9.929901927008593e-18,
+        1.0
+      ],
+      "physical_candidates_found": 17,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 9.43689570931383e-16
+        },
+        "dual": {
+          "real_phase_roots_found": 6,
+          "maximum_base_factor_remainder": 1.9290125052862095e-15
+        },
+        "max_purity_identity_error": 4.440892098500626e-16,
+        "max_kernel_residual": 1.4151153196014178e-15
+      }
+    },
+    {
+      "index": 11,
+      "sextic_spectrum_minimum_found": -0.04463577381372964,
+      "direct_field_minimum_found": -0.044635773813729664,
+      "difference": 2.0816681711721685e-17,
+      "winning_constructor": "charged-dual",
+      "winning_support": [
+        0,
+        2
+      ],
+      "winning_eigenvalues": [
+        -2.7755575615628914e-17,
+        0.2806797315422288,
+        0.7193202684577708
+      ],
+      "physical_candidates_found": 19,
+      "diagnostics": {
+        "primal": {
+          "real_phase_roots_found": 6,
+          "maximum_base_factor_remainder": 2.3592239273284576e-16
+        },
+        "dual": {
+          "real_phase_roots_found": 4,
+          "maximum_base_factor_remainder": 2.8622937353617317e-16
+        },
+        "max_purity_identity_error": 8.881784197001252e-16,
+        "max_kernel_residual": 1.3366202219620236e-16
+      }
+    }
+  ]
+}

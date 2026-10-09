@@ -1,0 +1,48 @@
+{
+  "identity_scope": "arbitrary real symbolic alpha/e/Re d/Im d and rational phase charts",
+  "two_B_current_identity": "exact polynomial zero in all parameters",
+  "examples": [
+    {
+      "name": "reference_neutral",
+      "F": "-3365*t**2*u**2 - 14400*t**2*u + 2321*t**2 + 10020*t*u**2 - 7612*t*u - 3060*t + 1485*u**2 - 1320*u - 441",
+      "G": "-20735*t**2*u**2 - 44520*t**2*u + 4613*t**2 + 96460*t*u**2 - 49896*t*u + 10780*t + 20335*u**2 + 41160*u - 4213",
+      "gcd": "1",
+      "sextic": "65532894182001*t**6 - 846134370496944*t**5 + 2404104611159391*t**4 + 2245261288159824*t**3 - 463362875655073*t**2 - 249992387249952*t - 20785328196111",
+      "sextic_degree": 6,
+      "resultant_factor_degrees_multiplicities": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "sextic_real_root_count": 6,
+      "loop_imaginary_part": "1/1225",
+      "matches_prior_adjugate_elimination_sextic_exactly": true
+    },
+    {
+      "name": "mixed_weights",
+      "F": "335*t**2*u**2 - 9360*t**2*u - 911*t**2 - 8220*t*u**2 + 11812*t*u + 12060*t - 4995*u**2 - 29640*u + 5571",
+      "G": "-13115*t**2*u**2 - 29820*t**2*u + 4466*t**2 + 59220*t*u**2 - 35462*t*u - 1680*t + 13265*u**2 + 31080*u - 4616",
+      "gcd": "1",
+      "sextic": "-361838669136759*t**6 + 4555406050621392*t**5 - 11493267201725185*t**4 - 21113986803117552*t**3 + 15457986064189655*t**2 + 5745328241912736*t + 449142994341441",
+      "sextic_degree": 6,
+      "resultant_factor_degrees_multiplicities": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "sextic_real_root_count": 6,
+      "loop_imaginary_part": "1/1225"
+    }
+  ],
+  "status": "new reduction under audit; no stand-alone full-criterion claim from this script"
+}

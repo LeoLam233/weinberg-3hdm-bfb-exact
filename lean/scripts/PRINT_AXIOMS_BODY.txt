@@ -1,0 +1,13 @@
+
+import Lean
+open Lean Elab Command
+run_cmd do
+  let env := (← getEnv).setExporting false
+  let names := env.constants.fold (fun acc name info =>
+    match env.getModuleIdxFor? name with
+    | some i =>
+      let m := env.header.moduleNames[i.toNat]!.toString
+      if (m == "W3" || m.startsWith "W3.") && info.isTheorem then acc.push name else acc
+    | none => acc) (#[] : Array Name)
+  for name in names.qsort Name.lt do
+    elabCommand (← `(command| #print axioms $(mkIdent name)))

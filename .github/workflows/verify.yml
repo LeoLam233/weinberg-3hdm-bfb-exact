@@ -1,0 +1,64 @@
+name: Verify formal source
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: formal-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 150
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+    steps:
+      - name: Check out the exact commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12.14'
+      - name: Verify repository file identities
+        run: python scripts/verify_manifest.py
+      - name: Install the archive extractor in an isolated environment
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install --disable-pip-version-check -r requirements-ci.txt -r requirements-research.txt
+      - name: Fail-closed replay of finite scientific checks
+        run: .venv/bin/python -B scripts/hardened_replay.py --output-dir ci-receipts/scientific-replay
+      - name: Restore SHA-256-pinned official sources and runtime
+        working-directory: lean
+        run: ../.venv/bin/python scripts/setup_dependencies.py --install --runtime
+      - name: Fetch the pinned official dependency cache
+        run: .venv/bin/python scripts/run_ci.py cache
+      - name: Fresh serial compilation of every local Lean source
+        run: .venv/bin/python scripts/run_ci.py build
+      - name: Strict declaration audit and fresh LeanChecker replay
+        run: .venv/bin/python scripts/run_ci.py audit
+      - name: Retain diagnostic evidence
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: verification-${{ github.sha }}
+          path: |
+            ci-receipts/
+            lean/logs/
+            lean/fresh/**/BUILD.json
+            lean/fresh/**/logs/*.txt
+            lean/fresh/**/logs/*.json
+            lean/fresh/**/kernel_audit_*/
+            !lean/fresh/**/lib/
+          retention-days: 30
+          if-no-files-found: warn

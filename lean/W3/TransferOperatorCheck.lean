@@ -1,0 +1,23 @@
+import W3.TransferOperatorStrata
+import W3.TransferOperatorRetainedResidue
+
+#print axioms W3.StrataTransfer.real_minimum_strata
+#print axioms W3.StrataTransfer.stationaryStrataFormula_realize
+#print axioms W3.StrataTransfer.sixteen_minimum_stationary_strata
+#print axioms W3.TransferOperator.real_physical_equivalence
+#print axioms W3.TransferOperator.physicalFormula_realize
+#print axioms W3.TransferOperator.sixteen_physical_equivalence
+#print axioms W3.TransferOperator.hermitianPair_projector
+#print axioms W3.TransferOperator.hermitianOperator_selfadjoint
+#print axioms W3.TransferOperator.gramMatches_energy
+#print axioms W3.TransferOperator.sixteen_physical_energy_witness
+#print axioms W3.TransferOperator.strataWitness_coordinates_iff
+#print axioms W3.TransferOperator.sixteen_minimum_neutral_or_charged
+
+#print axioms W3.TransferOperator.minimizing_matrix_successive_residue
+#print axioms W3.TransferOperator.actualRetainedMatrices_card_le_thirty
+#print axioms W3.TransferOperator.actualRetainedMatrices_values
+#print axioms W3.TransferOperator.actualMinimum_has_retainedMatrix
+#print axioms W3.TransferOperator.actualRetainedMatrices_algebraic
+#print axioms W3.TransferOperator.actualRetainedMatrix_minimizing_successive_residue
+#print axioms W3.TransferOperator.exists_actualRetained_minimizing_successive_residue

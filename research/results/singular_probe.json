@@ -1,0 +1,158 @@
+{
+  "scope": "Finite real-epsilon, floating roots and BFGS diagnostics only",
+  "Q_coefficient_perturbation": [
+    0.02,
+    -0.04,
+    0.06,
+    -0.04,
+    0.02,
+    0.04,
+    0.06,
+    -0.02,
+    0.04,
+    0.02,
+    0.04,
+    -0.04,
+    0.06,
+    0.02,
+    -0.06
+  ],
+  "Q_uniform_bounds": [
+    0.825,
+    1.175
+  ],
+  "records": [
+    {
+      "model": "identically_zero",
+      "epsilon": 0.2,
+      "spectrum_minimum_found": 0.19599999999999934,
+      "direct_minimum_found": 0.19600000000000004,
+      "difference": -6.938893903907228e-16,
+      "minimum_minus_base_divided_by_epsilon": 0.9799999999999967,
+      "winning_kind": "charged",
+      "winning_support": [
+        2
+      ],
+      "direct_gradient_norm": 1.2473285893315072e-10,
+      "physical_candidates_found": 13
+    },
+    {
+      "model": "identically_zero",
+      "epsilon": 0.05,
+      "spectrum_minimum_found": 0.048999999999999835,
+      "direct_minimum_found": 0.04900000000000019,
+      "difference": -3.5388358909926865e-16,
+      "minimum_minus_base_divided_by_epsilon": 0.9799999999999967,
+      "winning_kind": "charged",
+      "winning_support": [
+        2
+      ],
+      "direct_gradient_norm": 2.0649230611460045e-10,
+      "physical_candidates_found": 13
+    },
+    {
+      "model": "identically_zero",
+      "epsilon": 0.01,
+      "spectrum_minimum_found": 0.009799999999999988,
+      "direct_minimum_found": 0.009800000000000773,
+      "difference": -7.858297346174936e-16,
+      "minimum_minus_base_divided_by_epsilon": 0.9799999999999988,
+      "winning_kind": "charged",
+      "winning_support": [
+        2
+      ],
+      "direct_gradient_norm": 5.6156129483489405e-11,
+      "physical_candidates_found": 13
+    },
+    {
+      "model": "constant_trace_square",
+      "epsilon": 0.2,
+      "spectrum_minimum_found": 1.1959999999999893,
+      "direct_minimum_found": 1.1959999999999995,
+      "difference": -1.021405182655144e-14,
+      "minimum_minus_base_divided_by_epsilon": 0.9799999999999465,
+      "winning_kind": "charged",
+      "winning_support": [
+        2
+      ],
+      "direct_gradient_norm": 3.1888946333257115e-10,
+      "physical_candidates_found": 13
+    },
+    {
+      "model": "constant_trace_square",
+      "epsilon": 0.05,
+      "spectrum_minimum_found": 1.049,
+      "direct_minimum_found": 1.0489999999999997,
+      "difference": 2.220446049250313e-16,
+      "minimum_minus_base_divided_by_epsilon": 0.9799999999999986,
+      "winning_kind": "neutral",
+      "winning_support": [
+        1
+      ],
+      "direct_gradient_norm": 1.4662843898958856e-10,
+      "physical_candidates_found": 13
+    },
+    {
+      "model": "constant_trace_square",
+      "epsilon": 0.01,
+      "spectrum_minimum_found": 1.0098,
+      "direct_minimum_found": 1.0098000000000042,
+      "difference": -4.218847493575595e-15,
+      "minimum_minus_base_divided_by_epsilon": 0.9800000000000031,
+      "winning_kind": "neutral",
+      "winning_support": [
+        1
+      ],
+      "direct_gradient_norm": 3.387677570917451e-10,
+      "physical_candidates_found": 13
+    },
+    {
+      "model": "charged_zero_boundary",
+      "epsilon": 0.2,
+      "spectrum_minimum_found": 0.201100455197714,
+      "direct_minimum_found": 0.201100455197714,
+      "difference": 0.0,
+      "minimum_minus_base_divided_by_epsilon": 1.00550227598857,
+      "winning_kind": "charged",
+      "winning_support": [
+        0,
+        1,
+        2
+      ],
+      "direct_gradient_norm": 1.839558420157335e-10,
+      "physical_candidates_found": 28
+    },
+    {
+      "model": "charged_zero_boundary",
+      "epsilon": 0.05,
+      "spectrum_minimum_found": 0.05029329951862986,
+      "direct_minimum_found": 0.05029329951862992,
+      "difference": -6.245004513516506e-17,
+      "minimum_minus_base_divided_by_epsilon": 1.005865990372597,
+      "winning_kind": "charged",
+      "winning_support": [
+        0,
+        1,
+        2
+      ],
+      "direct_gradient_norm": 4.524864245159202e-10,
+      "physical_candidates_found": 30
+    },
+    {
+      "model": "charged_zero_boundary",
+      "epsilon": 0.01,
+      "spectrum_minimum_found": 0.010059798778895016,
+      "direct_minimum_found": 0.01005979877889501,
+      "difference": 6.938893903907228e-18,
+      "minimum_minus_base_divided_by_epsilon": 1.0059798778895015,
+      "winning_kind": "charged",
+      "winning_support": [
+        0,
+        1,
+        2
+      ],
+      "direct_gradient_norm": 1.656663812281124e-11,
+      "physical_candidates_found": 30
+    }
+  ]
+}

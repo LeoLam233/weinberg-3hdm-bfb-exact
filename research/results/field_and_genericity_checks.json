@@ -1,0 +1,10 @@
+{
+  "full_field_scope": "12 real independent field coordinates, all 15 symbolic real couplings",
+  "energy_operator_identity": true,
+  "real_field_derivative_identities_checked": 12,
+  "Euler_degree_four_identity": true,
+  "radial_value_jet_right_inverse": "delta B=(ell 1^T+1 ell^T)/2; on sum r=1, delta p=ell.r",
+  "phase_tree_jet_minor": "r1*r2^2*r3, nonzero on full support",
+  "constant_shift_with_g_fixed": "delta alpha=2 eta, delta e=2 eta, delta d=0; p -> p+eta on sum r=1",
+  "rephasing_covariance": "exact rational unit phases, arbitrary symbolic fields/couplings"
+}
