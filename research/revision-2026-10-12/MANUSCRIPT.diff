@@ -1,0 +1,290 @@
+--- research/THEOREM.md (frozen C001)
++++ research/revision-2026-10-12/THEOREM_REVISED.md
+@@ -1,9 +1,14 @@
+ # A two-spectrum sextic criterion for the complex Weinberg 3HDM
+ 
+-**Research object:** W3-BFB-EXACT. **Date:** 9 October 2026.
+-
+-This document contains the analytic result developed in the autonomous campaign.
+-Its verification and priority status are reported separately in `REPORT.md`.
++**Research object:** W3-BFB-EXACT. **Integrated review draft:** 12 October 2026.
++
++Analytic source C001 and formal revision F002 are anchored to repository commit
++`5485acb93e9a6dc0631573c07a10e1666b23ca99`. This is a separate manuscript revision
++for review, not a new formal release or a claim of human peer review.
++
++This manuscript integrates the analytic argument with the confirmed errata and
++the F002 finite-input formal construction. Verification scope is stated in
++Section 9; a declaration-level concordance accompanies this manuscript.
+ “Exact” below refers to algebraic equations, root selection, signs and limits;
+ the accompanying floating-point prototype is not an exact decision program.
+ 
+@@ -34,21 +39,10 @@
+ that kernel. Its kernel problem has the same phase-current algebra as a neutral
+ configuration, with transformed couplings and a weighted normalization:
+ 
+-```text
+-                       physical Gram matrices, tr K = 1
+-                         /                         \
+-               rank one /                           \ rank two
+-                       v                             v
+-                 neutral projector          one-dimensional kernel P
+-                       |                             |
+-                 primal spectrum            inverse-operator spectrum
+-                       \                             /
+-                        \--- same sextic engine ----/
+-                                   |
+-                    finite physical candidate values
+-                                   |
+-                    signs / minimum / field witness
+-```
++The two branches are: rank-one Gram matrices give the primal neutral spectrum;
++rank-two Gram matrices give a kernel projector and the inverse-operator spectrum.
++Both use the same sextic phase engine. Physical filtering, finite minimization,
++and successive bounded residues then recover the minimum and a field witness.
+ 
+ The Gram-domain and constrained-stationarity framework is established prior
+ work, not a novelty claim here [MN15]. The new proposed reduction is the explicit
+@@ -87,9 +81,13 @@
+ operators, real-coupling loci, flat directions, vanishing couplings, stationary
+ continua and denominator degeneracies. It is not a numerical regularization.
+ 
+-The effective-algorithm statement applies to rational/algebraic input, or to a
+-coefficient presentation equipped with exact arithmetic and sign access. It does
+-not assert computability of an arbitrary uncomputable real number.
++The finite construction is relative to exact arithmetic, equality/order, and
++finite real-root interfaces over the ordered tower. F002 proves uniform
++input-derived syntax and its semantic refinement (Section 8.1); it supplies no
++verified rational/algebraic backend or extracted runnable solver. Rational or
++algebraic input permits standard effective representations in principle, but
++their implementation and verification are additional work. No computability
++claim is made for arbitrary uncomputable real numbers.
+ 
+ ## 2. The common weighted spectrum
+ 
+@@ -387,11 +385,23 @@
+ from (25). Thus the spectral stationary equations and the charged kernel
+ condition are equivalent, not only one-way implications.
+ 
+-Missing components of \(z\) cause no omitted derivatives. The structured map
+-\(R\) preserves each zero support row of a rank-one projector, and \(RI\) is
+-diagonal. Therefore the off-support components of (31) vanish automatically.
+-The same fact holds for \(L\) in the primal spectrum. This is the role of the
+-individual sign-flip symmetry; a general 3HDM does not have this support property.
++Missing components of \(z\) cause no omitted first derivatives. If \(z_i=0\),
++then \(P_{ij}=z_i\bar z_j=0\) for every \(j\). For \(j\ne i\), (21) therefore
++gives \((RP)_{ij}=0\), but its diagonal entry \((RP)_{ii}=(Gr)_i\) may be
++nonzero. The required vector identity is nevertheless
++\[
++ ((RP)z)_i=(Gr)_i z_i+\sum_{j\ne i}(RP)_{ij}z_j=0,
++ \qquad ((RI)z)_i=g_i z_i=0. \tag{31a}
++\]
++Thus the off-support components of (31) vanish. The same calculation using
++(20) gives \(((LP)z)_i=0\) and \(((LI)z)_i=0\): diagonal mixing is again
++multiplied by \(z_i=0\). The on-support radial and phase derivatives exhaust
++the remaining tangent directions; at a missing complex amplitude the real and
++imaginary first variations vanish by these vector identities. This is the
++support property used in the proof, not preservation of an entire zero row.
++It relies on the individual sign-flip structure and need not hold for a general
++3HDM. The inverse identity is also the literal conclusion of
++`W3.Operator.inverse_projector_zero_component` in F002.
+ 
+ ### 5.2 Exceptional charged equations
+ 
+@@ -466,7 +476,7 @@
+     &+10780t+20335u^2+41160u-4213.
+ \end{split}
+ \]
+-Their exact gcd is one, both have full bidegrees, and their resultant quotient is
++Their exact gcd is one and both have full bidegrees. Write the primitive-normalized resultant quotient as
+ \[
+ \begin{split}
+  &65532894182001t^6-846134370496944t^5+2404104611159391t^4\\
+@@ -474,6 +484,16 @@
+  -249992387249952t-20785328196111.
+ \end{split} \tag{35}
+ \]
++Denote the displayed polynomial by \(S_{\mathrm{prim}}(t)\). For precisely
++the integer \(F,G\) printed above, the ordinary Sylvester determinant satisfies
++\[
++ \operatorname{Res}_u(F,G)=100(1+t^2)S_{\mathrm{prim}}(t). \tag{35a}
++\]
++Thus the literal quotient in (18) is \(100S_{\mathrm{prim}}\), not
++\(S_{\mathrm{prim}}\). Dividing out this positive integer content leaves
++the roots, multiplicities, degree and common-component witness unchanged.
++The universal construction continues to use the ordinary quotient (18);
++primitive normalization is only a convention in this example.
+ The loop imaginary part is \(1/1225\). No boundary divisor is a common component.
+ The same property was separately checked with mixed weights \((2,-1,3)\).
+ Thus the needed open set is nonempty both for the primal slice \(g=\mathbf1\)
+@@ -661,6 +681,93 @@
+ zero direction in the respective cases. It is not a classification of every
+ zero orbit when the zero set is continuous.
+ 
++
++### 8.1 Uniform finite-input construction and its F002 refinement
++
++**Proposition (finite-input endpoint).** Fix any original fifteen-coordinate
++input \(\kappa\) and exact primitive interfaces for the ordered tower. There is
++a uniform finite code-producing construction of a nonempty list of physical
++candidate records. Its interpreted distinct scalar values are precisely
++\(\mathscr C_\epsilon\), with cardinality at most thirty. Its selected record
++has value \(m_\epsilon\), its four sign tests satisfy (3), and its successive
++residue execution returns stage-zero codes for \(m\), a minimizing physical
++Gram matrix, and normalized doublets attaining \(m\). Every retained minimizing
++matrix of the semantic construction, with its original sign/gauge choices,
++has a code in a uniform finite covering list whose residue execution and pivot
++reconstruction attain the same original minimum. No genericity, nonsingularity,
++physicality or boundedness promise is imposed on the original input.
++
++Here “code-producing” is relative to semantic exact primitives. It is not
++backend-independent serialization or an extracted executable implementation.
++
++**Construction and refinement proof.** F002 makes the composition explicit.
++`CoefficientCode n` has only rational constants, the fifteen original input
++coordinates, and `n` formal infinitesimal generators as scalar leaves, together
++with addition, multiplication, negation and inverse. `Code n` adds finite
++selected-root nodes and square-root nodes. A root node contains a finite
++coefficient-code list and a natural-number index into the primitive root list;
++it does not insert an arbitrary ambient scalar as a constant. `Code 0` has no
++infinitesimal leaf because its generator index type is empty. Inverse is
++totalized in the syntax; the retained construction proves the denominators
++needed by the mathematical formulas nonzero rather than using division by
++zero as a mathematical step.
++
++First, compile the canonical deformation (38), both parameter maps (22)--(23),
++and the singleton, pair and full-support candidate formulas into this syntax.
++Finite root enumeration produces all root-index codes and the relevant
++square-root signs. Exact equality/order tests perform retention and finite
++minimum selection. The stronger formal genericity exclusions hold for this
++canonical deformation for every \(\kappa\); see Section 9.1. Interpretation
++commutes with the compiled arithmetic, operator reconstruction and physical
++filter. Consequently `actualCodeProgram_values` identifies the interpreted
++value set with the semantic candidate set, `actualCodeProgram_physical`
++proves physicality and energy for each retained record, and
++`actualSelectedRecord_value` proves that literal finite-list selection has
++value \(m_\epsilon\). Together with (33) and (40), `signPrograms_spec`
++gives all four sign equivalences. The thirty bound is a bound on distinct
++values, not on the raw list of codes or gauge representatives.
++
++Second, residue execution consumes the code that was actually generated.
++Finite multiplication presentations and their characteristic-polynomial
++annihilators produce coefficient programs; denominators are cleared and the
++maximal common infinitesimal power is stripped. Root-index codes for the
++nonzero specialized polynomial are generated in the preceding stage. In the
++formal implementation, finite exact comparisons select the root closest to
++the source value in the next ordered field. If \(q\) is the residue, the
++distance to \(q\) is infinitesimal relative to the preceding field, whereas
++the distance to each different preceding-field root is bounded below by a
++positive preceding-field element. Hence the selection uniquely recovers the
++residue. This is equivalent in outcome to the midpoint description above;
++neither method assumes simple roots. Typed distance requests retain both
++operand codes. `codedResidueStageProgram_correct` proves one-stage success,
++and structural recursion gives sixteen-stage success. Scalar and physical
++matrix bounds are proved from the input and retention, not supplied as
++additional hypotheses to the central endpoint. `actualValueCode_success`
++identifies the final scalar with \(m\); `actualMatrixCode_spec` gives a
++physical Gram matrix with energy \(m\).
++
++Third, the literal pivoted square-root construction (41), also with finite
++root-index codes, gives `actualFields_spec`: total norm one, the computed
++Gram matrix, and quartic value \(m\). The normalized fields therefore witness
++the negative or flat alternatives when their corresponding sign test holds.
++Finally, `every_old_retained_minimizer_coded_execution` strengthens this selected
++record statement to every semantic retained minimizer. Its covering list can
++contain extra nonphysical sign combinations; physicality is asserted for
++entries representing the retained minimizing matrices, not for every covering
++list entry. This statement does not classify all real minimizing or zero
++orbits in a continuous exceptional locus.
++
++These components are assembled in
++`W3.FiniteInput.uniform_finite_input_exact_criterion`; the field-domain sign
++statement for arbitrary real and complex couplings is
++`W3.FiniteInput.arbitrary_complex_finite_input_criterion`. The theorem parameter
++`ResidueOracles` supplies coefficient equality at each rational-tower stage and
++finite real-root enumeration at each ordered stage. Arithmetic and order are
++interpreted in the semantic ordered fields; some equality/order/list-selection
++choices use classical choice at runtime. Thus finite input provenance and
++refinement close the F001 composition gap, but do not establish a concrete
++representation-level exact solver or remove classical choice from the program.
++
+ ## 9. Scope, provenance and verification limits
+ 
+ The theorem concerns only the tree-level quartic form (1). If \(m=0\), the
+@@ -669,12 +776,59 @@
+ acceptable neutral vacuum is global, or that radiative corrections preserve the
+ classification. Conversely \(m>0\) is strict quartic positivity.
+ 
+-The algebraic genericity, real-root/sign and bounded-residue arguments are part
+-of the proof, not facts established by the floating prototype. The prototype
+-has numerical tolerances and local root polishing; its agreement with direct
+-field minimization is a diagnostic only. The symbolic scripts check named
+-identities, examples and degree claims, not the entire theorem in a proof
+-assistant. No external reviewer or independent agent has certified this result.
++### 9.1 Analytic and formal auxiliary domains
++
++Let G denote the broader regular domain of the analytic four-projective-chart
++and specialized-gcd procedure in Sections 2 and 6. Let G′ denote the stronger
++open domain of the formal affine candidate API: it additionally excludes
++projective-boundary roots and nonunique linear recovery fibers in its affine
++chart. These domains must not be identified. F002 proves projective-root
++equivalence on G′ and proves that both canonical deformed inputs lie in G′
++for every original coefficient vector. Therefore the central all-input theorem
++is unrestricted, although the broader undeformed all-G auxiliary interface and
++its general intersection-multiplicity count are not separately packaged in
++full in Lean. The optional coefficient-evaluation formula (28) is also not a
++separate literal formal endpoint; the formal physical filter uses the proved
++purity identity. Sections 2--6 retain the broader analytic proof; Section 8.1
++states the narrower auxiliary interface actually used by the formal endpoint.
++
++### 9.2 Verification and practical limitations
++
++The repository's F002 release-status record, dated 9 October 2026, reports fresh
++compilation of 190 local Lean modules and strict fresh replay of 4,545 declarations
++(3,088 theorems) by LeanChecker using the same Lean kernel. Its source freeze is
++SHA256 `7fc34595fdb0a21778cf000dfac1484a4d6dd9c0e9dc3aff7ad0fce5f1af73c5`.
++It records three repaired independent AI audit rounds with four reports per
++round and adjudication, with no confirmed or open potentially load-bearing
++errors recorded. These are source-bound historical validation results, not
++a fresh build or new adversarial audit of this revised prose.
++
++The local scientific declaration gate excludes custom scientific axioms,
++sorry/admit, unsafe/partial W3 declarations, native-decide shortcuts and
++compiler-trust bypasses. The allowed foundational axioms are `propext`,
++`Classical.choice` and `Quot.sound`. LeanChecker uses the same kernel, not an
++independent proof-kernel implementation. Runtime declaration skipping is
++disclosed separately from the stricter local W3 gate; pinned external
++dependency artifacts are fingerprinted/reused rather than all rebuilt from
++source. A successful remote GitHub Actions run is a separate fact and is not
++inferred from the local release-status record.
++
++The algebraic genericity, root/sign and bounded-residue arguments are proof
++ingredients, not conclusions drawn from floating-point agreement. The prototype
++uses tolerances and local polishing and is only diagnostic. Symbolic scripts
++check named identities and finite examples. The historical diagnostic replay
++wrapper could accept stale outputs and must not be an assurance gate; the
++separate hardened wrapper requires fresh outputs and strict comparisons.
++Its recorded reproduction of eight finite suites does not prove universal
++stationarity, genericity or residue coverage.
++
++No verified rational/algebraic backend, runnable extracted exact solver,
++backend-independent portable root-code serialization, practical runtime advantage,
++human peer review, external endorsement or absolute priority certification is
++claimed. The source-based priority assessment was bounded to the material
++inspected on 9 October 2026; this manuscript revision does not refresh that
++literature survey. Independent AI review and kernel checking must remain
++distinct from human scholarly review.
+ 
+ ### References used at their stated scope
+ 
+@@ -695,6 +849,7 @@
+ stationary treatment. Gram geometry and the general stationary-equation method
+ are prior work, not claimed as new here.
+ 
+-The current-open and equivalent-prior assessment, including recent Weinberg
+-model work and the distinction from a general resultant algorithm, is in
+-`SOURCES.md` and `REPORT.md`.
++The source and bounded equivalent-prior assessment, including recent Weinberg
++model work, is preserved in `research/SOURCES.md` of the anchored repository.
++Formal status and scope are recorded in `verification/RELEASE_STATUS.json` and
++`docs/SCOPE.md`; confirmed corrective history is in `docs/ERRATA.md`.
